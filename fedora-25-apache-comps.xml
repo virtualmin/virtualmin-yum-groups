@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
 <comps>
-        
+
   <group>
    <id>virtualminapacheenvironment</id>
    <default>false</default>
@@ -58,6 +58,7 @@
       <packagereq type="optional">proftpd</packagereq>
       <packagereq type="optional">spamassassin</packagereq>
       <packagereq type="optional">webalizer</packagereq>
+      <packagereq type="optional">fail2ban</packagereq>
     </packagelist>
   </group>
 </comps>
