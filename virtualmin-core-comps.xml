@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+        
+  <group>
+   <id>virtualmincore</id>
+   <default>false</default>
+   <uservisible>true</uservisible>
+   <display_order>1024</display_order>
+   <name>Virtualmin Core</name>
+   <description>Virtualmin core dependencies, including Webmin and Virtualmin and several popular plugins</description>
+    <packagelist>
+      <packagereq type="default">usermin</packagereq>
+      <packagereq type="default">wbm-jailkit</packagereq>
+      <packagereq type="default">wbm-php-pear</packagereq>
+      <packagereq type="default">wbm-ruby-gems</packagereq>
+      <packagereq type="mandatory">wbm-virtual-server</packagereq>
+      <packagereq type="default">wbm-virtualmin-awstats</packagereq>
+      <packagereq type="default">wbm-virtualmin-dav</packagereq>
+      <packagereq type="default">wbm-virtualmin-git</packagereq>
+      <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
+      <packagereq type="default">wbm-virtualmin-init</packagereq>
+      <packagereq type="default">wbm-virtualmin-registrar</packagereq>
+      <packagereq type="default">wbm-virtualmin-slavedns</packagereq>
+      <packagereq type="default">wbm-virtualmin-sqlite</packagereq>
+      <packagereq type="mandatory">webmin</packagereq>
+    </packagelist>
+  </group>
+</comps>
