@@ -39,6 +39,7 @@
       <packagereq type="mandatory">ruby</packagereq>
       <packagereq type="mandatory">ruby-devel</packagereq>
       <packagereq type="mandatory">rubygems</packagereq>
+      <packagereq type="mandatory">perl-JSON-PP</packagereq>
       <packagereq type="optional">ca-certificates</packagereq>
       <packagereq type="optional">clamav</packagereq>
       <packagereq type="optional">cyrus-sasl</packagereq>
