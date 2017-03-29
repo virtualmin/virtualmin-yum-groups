@@ -23,6 +23,7 @@
       <packagereq type="mandatory">perl-JSON-XS</packagereq>
       <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
+      <packagereq type="mandatory">perl-Config-IniFiles</packagereq>
       <packagereq type="mandatory">php</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
