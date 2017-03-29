@@ -3,18 +3,76 @@
 <comps>
 
   <group>
-   <id>virtualminapacheenvironment</id>
+   <id>virtualmin-lamp</id>
    <default>false</default>
    <uservisible>true</uservisible>
    <display_order>1024</display_order>
-   <name>Virtualmin Apache Environment</name>
-   <description></description>
+   <name>Virtualmin LAMP Stack</name>
+   <description>Virtualmin with Apache, MySQL, and PHP/Perl/Python/Ruby</description>
     <packagelist>
       <packagereq type="mandatory">bind</packagereq>
       <packagereq type="mandatory">bind-utils</packagereq>
       <packagereq type="mandatory">httpd</packagereq>
       <packagereq type="mandatory">iptables</packagereq>
       <packagereq type="mandatory">mod_ssl</packagereq>
+      <packagereq type="mandatory">openssl</packagereq>
+      <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
+      <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
+      <packagereq type="mandatory">perl-DBD-Pg</packagereq>
+      <packagereq type="mandatory">perl-JSON</packagereq>
+      <packagereq type="mandatory">perl-JSON-XS</packagereq>
+      <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
+      <packagereq type="mandatory">perl-XML-Simple</packagereq>
+      <packagereq type="mandatory">perl-Config-IniFiles</packagereq>
+      <packagereq type="mandatory">php</packagereq>
+      <packagereq type="mandatory">php-gd</packagereq>
+      <packagereq type="mandatory">php-imap</packagereq>
+      <packagereq type="mandatory">php-mbstring</packagereq>
+      <packagereq type="mandatory">php-mysql</packagereq>
+      <packagereq type="mandatory">php-odbc</packagereq>
+      <packagereq type="mandatory">php-pear</packagereq>
+      <packagereq type="mandatory">php-pgsql</packagereq>
+      <packagereq type="mandatory">php-snmp</packagereq>
+      <packagereq type="mandatory">php-xml</packagereq>
+      <packagereq type="mandatory">php-xmlrpc</packagereq>
+      <packagereq type="mandatory">python</packagereq>
+      <packagereq type="mandatory">quota</packagereq>
+      <packagereq type="mandatory">ruby</packagereq>
+      <packagereq type="mandatory">ruby-devel</packagereq>
+      <packagereq type="mandatory">rubygems</packagereq>
+      <packagereq type="mandatory">perl-JSON-PP</packagereq>
+      <packagereq type="optional">ca-certificates</packagereq>
+      <packagereq type="optional">clamav</packagereq>
+      <packagereq type="optional">cyrus-sasl</packagereq>
+      <packagereq type="optional">cyrus-sasl-gssapi</packagereq>
+      <packagereq type="optional">dkim-milter</packagereq>
+      <packagereq type="optional">dovecot</packagereq>
+      <packagereq type="optional">jailkit</packagereq>
+      <packagereq type="optional">logrotate</packagereq>
+      <packagereq type="optional">postgresql</packagereq>
+      <packagereq type="optional">postgresql-devel</packagereq>
+      <packagereq type="optional">postgresql-server</packagereq>
+      <packagereq type="optional">postgrey</packagereq>
+      <packagereq type="optional">procmail-wrapper</packagereq>
+      <packagereq type="optional">proftpd</packagereq>
+      <packagereq type="optional">spamassassin</packagereq>
+      <packagereq type="optional">webalizer</packagereq>
+      <packagereq type="optional">fail2ban</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+   <id>virtualmin-lemp</id>
+   <default>false</default>
+   <uservisible>true</uservisible>
+   <display_order>1024</display_order>
+   <name>Virtualmin LEMP Stack</name>
+   <description>Virtualmin with nginx, MySQL, and PHP/Perl/Python/Ruby</description>
+    <packagelist>
+      <packagereq type="mandatory">bind</packagereq>
+      <packagereq type="mandatory">bind-utils</packagereq>
+      <packagereq type="mandatory">nginx</packagereq>
+      <packagereq type="mandatory">iptables</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
       <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
