@@ -59,6 +59,7 @@
       <packagereq type="optional">spamassassin</packagereq>
       <packagereq type="optional">webalizer</packagereq>
       <packagereq type="optional">fail2ban</packagereq>
+      <packagereq type="optional">awstats</packagereq>
     </packagelist>
   </group>
 
@@ -117,6 +118,7 @@
       <packagereq type="optional">spamassassin</packagereq>
       <packagereq type="optional">webalizer</packagereq>
       <packagereq type="optional">fail2ban</packagereq>
+      <packagereq type="optional">awstats</packagereq>
     </packagelist>
   </group>
 </comps>
