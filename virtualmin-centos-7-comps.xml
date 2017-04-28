@@ -146,7 +146,7 @@
     <packagelist>
       <packagereq type="mandatory">rh-php70</packagereq>
       <packagereq type="mandatory">rh-php70-php</packagereq>
-      <packagereq type="mandatory">rh-php70-fpm</packagereq>
+      <packagereq type="mandatory">rh-php70-php-fpm</packagereq>
       <packagereq type="optional">rh-php70-php-bcmath</packagereq>
       <packagereq type="optional">rh-php70-php-mbstring</packagereq>
       <packagereq type="optional">rh-php70-php-xmlrpc</packagereq>
