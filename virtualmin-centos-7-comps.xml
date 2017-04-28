@@ -158,6 +158,5 @@
       <packagereq type="optional">rh-php70-php-pdo</packagereq>
       <packagereq type="optional">rh-php70-php-pspell</packagereq>
     </packagelist>
-   </description>
   </group>
 </comps>
