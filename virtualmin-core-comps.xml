@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
 <comps>
-        
+
   <group>
    <id>virtualmincore</id>
    <default>false</default>
@@ -10,6 +10,7 @@
    <name>Virtualmin Core</name>
    <description>Virtualmin core dependencies, including Webmin and Virtualmin and several popular plugins</description>
     <packagelist>
+      <packagereq type="mandatory">webmin</packagereq>
       <packagereq type="default">usermin</packagereq>
       <packagereq type="default">wbm-jailkit</packagereq>
       <packagereq type="default">wbm-php-pear</packagereq>
@@ -23,7 +24,6 @@
       <packagereq type="default">wbm-virtualmin-registrar</packagereq>
       <packagereq type="default">wbm-virtualmin-slavedns</packagereq>
       <packagereq type="default">wbm-virtualmin-sqlite</packagereq>
-      <packagereq type="mandatory">webmin</packagereq>
     </packagelist>
   </group>
 </comps>

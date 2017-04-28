@@ -88,11 +88,13 @@
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
       <packagereq type="mandatory">perl-Config-IniFiles</packagereq>
       <packagereq type="mandatory">php</packagereq>
+      <packagereq type="mandatory">php-fpm</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
       <packagereq type="mandatory">php-mbstring</packagereq>
-      <packagereq type="mandatory">php-mysql</packagereq>
+      <packagereq type="mandatory">php-mysqlnd</packagereq>
       <packagereq type="mandatory">php-odbc</packagereq>
+      <packagereq type="mandatory">php-opcache</packagereq>
       <packagereq type="mandatory">php-pear</packagereq>
       <packagereq type="mandatory">php-pgsql</packagereq>
       <packagereq type="mandatory">php-snmp</packagereq>

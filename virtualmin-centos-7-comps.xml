@@ -91,11 +91,13 @@
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
       <packagereq type="mandatory">perl-Config-IniFiles</packagereq>
       <packagereq type="mandatory">php</packagereq>
+      <packagereq type="mandatory">php-fpm</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
       <packagereq type="mandatory">php-mbstring</packagereq>
       <packagereq type="mandatory">php-mysql</packagereq>
       <packagereq type="mandatory">php-odbc</packagereq>
+      <packagereq type="mandatory">php-opcache</packagereq>
       <packagereq type="mandatory">php-pear</packagereq>
       <packagereq type="mandatory">php-pgsql</packagereq>
       <packagereq type="mandatory">php-snmp</packagereq>
@@ -133,4 +135,28 @@
       <packagereq type="optional">awstats</packagereq>
     </packagelist>
   </group>
+
+  <group>
+   <id>scl-php70</id>
+   <default>false</default>
+   <uservisible>true</uservisible>
+   <display_order>1024</display_order>
+   <name>Software Collections PHP 7 Environment</name>
+   <description>Most commonly used PHP 7 packages from Software Collections</description>
+    <packagelist>
+      <packagereq type="mandatory">rh-php70</packagereq>
+      <packagereq type="mandatory">rh-php70-php</packagereq>
+      <packagereq type="mandatory">rh-php70-fpm</packagereq>
+      <packagereq type="optional">rh-php70-php-bcmath</packagereq>
+      <packagereq type="optional">rh-php70-php-mbstring</packagereq>
+      <packagereq type="optional">rh-php70-php-xmlrpc</packagereq>
+      <packagereq type="optional">rh-php70-php-opcache</packagereq>
+      <packagereq type="optional">rh-php70-php-devel</packagereq>
+      <packagereq type="optional">rh-php70-php-gd</packagereq>
+      <packagereq type="optional">rh-php70-php-gdm</packagereq>
+      <packagereq type="optional">rh-php70-php-mysqlnd</packagereq>
+      <packagereq type="optional">rh-php70-php-pdo</packagereq>
+      <packagereq type="optional">rh-php70-php-pspell</packagereq>
+    </packagelist>
+  </description>
 </comps>
