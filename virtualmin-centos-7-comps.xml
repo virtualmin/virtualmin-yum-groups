@@ -19,12 +19,15 @@
       <packagereq type="mandatory">openssl</packagereq>
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
       <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
-      <packagereq type="mandatory">perl-DBD-Pg</packagereq>
-      <packagereq type="mandatory">perl-JSON</packagereq>
+      <packagereq type="mandatory">perl-JSON-PP</packagereq>
       <packagereq type="mandatory">perl-JSON-XS</packagereq>
+      <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
       <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
       <packagereq type="mandatory">perl-Config-IniFiles</packagereq>
+      <packagereq type="mandatory">perl-Module-Load</packagereq>
+      <packagereq type="mandatory">perl-Time-HiRes</packagereq>
+      <packagereq type="mandatory">perl-parent</packagereq>
       <packagereq type="mandatory">php</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
@@ -41,7 +44,6 @@
       <packagereq type="mandatory">ruby</packagereq>
       <packagereq type="mandatory">ruby-devel</packagereq>
       <packagereq type="mandatory">rubygems</packagereq>
-      <packagereq type="mandatory">perl-JSON-PP</packagereq>
       <packagereq type="mandatory">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">clamav-scanner-systemd</packagereq>
@@ -59,6 +61,7 @@
       <packagereq type="optional">postgresql</packagereq>
       <packagereq type="optional">postgresql-devel</packagereq>
       <packagereq type="optional">postgresql-server</packagereq>
+      <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="default">postgrey</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
@@ -84,12 +87,15 @@
       <packagereq type="mandatory">openssl</packagereq>
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
       <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
-      <packagereq type="mandatory">perl-DBD-Pg</packagereq>
-      <packagereq type="mandatory">perl-JSON</packagereq>
       <packagereq type="mandatory">perl-JSON-XS</packagereq>
+      <packagereq type="mandatory">perl-JSON-PP</packagereq>
+      <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
       <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
       <packagereq type="mandatory">perl-Config-IniFiles</packagereq>
+      <packagereq type="mandatory">perl-Module-Load</packagereq>
+      <packagereq type="mandatory">perl-Time-HiRes</packagereq>
+      <packagereq type="mandatory">perl-parent</packagereq>
       <packagereq type="mandatory">php</packagereq>
       <packagereq type="mandatory">php-fpm</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
@@ -108,7 +114,6 @@
       <packagereq type="mandatory">ruby</packagereq>
       <packagereq type="mandatory">ruby-devel</packagereq>
       <packagereq type="mandatory">rubygems</packagereq>
-      <packagereq type="mandatory">perl-JSON-PP</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">clamav-scanner-systemd</packagereq>
@@ -126,6 +131,7 @@
       <packagereq type="optional">postgresql</packagereq>
       <packagereq type="optional">postgresql-devel</packagereq>
       <packagereq type="optional">postgresql-server</packagereq>
+      <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="default">postgrey</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>

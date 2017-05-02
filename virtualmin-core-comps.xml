@@ -24,6 +24,9 @@
       <packagereq type="default">wbm-virtualmin-registrar</packagereq>
       <packagereq type="default">wbm-virtualmin-slavedns</packagereq>
       <packagereq type="default">wbm-virtualmin-sqlite</packagereq>
+      <packagereq type="mandatory">perl-Module-Load</packagereq>
+      <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
+      <packagereq type="mandatory">perl-parent</packagereq>
     </packagelist>
   </group>
 </comps>
