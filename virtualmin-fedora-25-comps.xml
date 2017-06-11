@@ -15,6 +15,7 @@
       <packagereq type="mandatory">httpd</packagereq>
       <packagereq type="mandatory">httpd-itk</packagereq>
       <packagereq type="mandatory">iptables</packagereq>
+      <packagereq type="mandatory">firewalld</packagereq>
       <packagereq type="mandatory">mod_ssl</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
