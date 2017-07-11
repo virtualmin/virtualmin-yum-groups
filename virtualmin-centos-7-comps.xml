@@ -68,7 +68,8 @@
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">webalizer</packagereq>
-      <packagereq type="default">fail2ban</packagereq>
+      <packagereq type="default">fail2ban-server</packagereq>
+      <packagereq type="default">fail2ban-firewalld</packagereq>
       <packagereq type="default">awstats</packagereq>
     </packagelist>
   </group>
@@ -138,7 +139,8 @@
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">webalizer</packagereq>
-      <packagereq type="default">fail2ban</packagereq>
+      <packagereq type="default">fail2ban-server</packagereq>
+      <packagereq type="default">fail2ban-firewalld</packagereq>
       <packagereq type="default">awstats</packagereq>
     </packagelist>
   </group>
