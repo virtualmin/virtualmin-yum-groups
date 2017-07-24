@@ -17,11 +17,12 @@
       <packagereq type="mandatory">iptables</packagereq>
       <packagereq type="mandatory">firewalld</packagereq>
       <packagereq type="mandatory">mod_ssl</packagereq>
+      <packagereq type="default">mod_fcgid</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
       <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
       <packagereq type="mandatory">perl-JSON-XS</packagereq>
-      <packagereq type="mandatory">perl-Log/Log4perl</packagereq>
+      <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
       <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
       <packagereq type="mandatory">perl-Config-IniFiles</packagereq>

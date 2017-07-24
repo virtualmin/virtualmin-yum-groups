@@ -16,6 +16,7 @@
       <packagereq type="mandatory">httpd-itk</packagereq>
       <packagereq type="mandatory">iptables</packagereq>
       <packagereq type="mandatory">mod_ssl</packagereq>
+      <packagereq type="default">mod_fcgid</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
       <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
