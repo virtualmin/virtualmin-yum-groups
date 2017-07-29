@@ -17,6 +17,9 @@
       <packagereq type="mandatory">iptables</packagereq>
       <packagereq type="mandatory">mod_ssl</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
+      <packagereq type="default">mysql-server</packagereq>
+      <packagereq type="default">mysql-devel</packagereq>
+      <packagereq type="default">mysql</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
       <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
@@ -46,6 +49,7 @@
       <packagereq type="mandatory">ruby-devel</packagereq>
       <packagereq type="mandatory">rubygems</packagereq>
       <packagereq type="default">mysql</packagereq>
+      <packagereq type="default">mysql-devel</packagereq>
       <packagereq type="default">mysql-server</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
