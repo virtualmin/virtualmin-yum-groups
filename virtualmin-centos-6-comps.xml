@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
 <comps>
-
   <group>
-   <id>virtualmin-lamp</id>
-   <default>false</default>
-   <uservisible>true</uservisible>
-   <display_order>1024</display_order>
-   <name>Virtualmin LAMP Stack</name>
-   <description>Virtualmin with Apache, MySQL, and PHP/Perl/Python/Ruby</description>
+    <id>scl-php70</id>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <display_order>1024</display_order>
+    <name>Software Collections PHP 7 Environment</name>
+    <description>Most commonly used PHP 7 packages from Software Collections</description>
+    <packagelist>
+      <packagereq type="mandatory">rh-php70</packagereq>
+      <packagereq type="mandatory">rh-php70-php</packagereq>
+      <packagereq type="mandatory">rh-php70-php-fpm</packagereq>
+      <packagereq type="default">rh-php70-php-bcmath</packagereq>
+      <packagereq type="default">rh-php70-php-devel</packagereq>
+      <packagereq type="default">rh-php70-php-gd</packagereq>
+      <packagereq type="default">rh-php70-php-gdm</packagereq>
+      <packagereq type="default">rh-php70-php-mbstring</packagereq>
+      <packagereq type="default">rh-php70-php-mysqlnd</packagereq>
+      <packagereq type="default">rh-php70-php-opcache</packagereq>
+      <packagereq type="default">rh-php70-php-pdo</packagereq>
+      <packagereq type="default">rh-php70-php-pspell</packagereq>
+      <packagereq type="default">rh-php70-php-xmlrpc</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>virtualmin-lamp</id>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <display_order>1024</display_order>
+    <name>Virtualmin LAMP Stack</name>
+    <description>Virtualmin with Apache, MySQL, and PHP/Perl/Python/Ruby</description>
     <packagelist>
       <packagereq type="mandatory">bind</packagereq>
       <packagereq type="mandatory">bind-utils</packagereq>
@@ -16,68 +38,67 @@
       <packagereq type="mandatory">httpd-itk</packagereq>
       <packagereq type="mandatory">iptables</packagereq>
       <packagereq type="mandatory">mod_ssl</packagereq>
-      <packagereq type="default">mod_fcgid</packagereq>
-      <packagereq type="default">mysql-server</packagereq>
-      <packagereq type="default">mysql-devel</packagereq>
-      <packagereq type="default">mysql</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
+      <packagereq type="mandatory">perl-Config-IniFiles</packagereq>
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
       <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
       <packagereq type="mandatory">perl-JSON-PP</packagereq>
-      <packagereq type="mandatory">perl-Module-Load</packagereq>
-      <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-JSON-XS</packagereq>
       <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
       <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
-      <packagereq type="mandatory">perl-XML-Simple</packagereq>
-      <packagereq type="mandatory">perl-Config-IniFiles</packagereq>
+      <packagereq type="mandatory">perl-Module-Load</packagereq>
       <packagereq type="mandatory">perl-parent</packagereq>
+      <packagereq type="mandatory">perl-Time-HiRes</packagereq>
+      <packagereq type="mandatory">perl-XML-Simple</packagereq>
       <packagereq type="mandatory">php</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
       <packagereq type="mandatory">php-mbstring</packagereq>
       <packagereq type="mandatory">php-mysql</packagereq>
-      <packagereq type="default">php-opcache</packagereq>
-      <packagereq type="optional">php-odbc</packagereq>
       <packagereq type="mandatory">php-pear</packagereq>
-      <packagereq type="optional">php-pgsql</packagereq>
-      <packagereq type="optional">php-snmp</packagereq>
-      <packagereq type="default">php-xml</packagereq>
-      <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
-      <packagereq type="default">ruby</packagereq>
-      <packagereq type="default">ruby-devel</packagereq>
-      <packagereq type="default">rubygems</packagereq>
+      <packagereq type="default">awstats</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">dkim-milter</packagereq>
       <packagereq type="default">dovecot</packagereq>
+      <packagereq type="default">fail2ban</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
-      <packagereq type="optional">postgresql</packagereq>
-      <packagereq type="optional">postgresql-devel</packagereq>
-      <packagereq type="optional">postgresql-server</packagereq>
-      <packagereq type="optional">perl-DBD-Pg</packagereq>
+      <packagereq type="default">mod_fcgid</packagereq>
+      <packagereq type="default">mysql</packagereq>
+      <packagereq type="default">mysql-devel</packagereq>
+      <packagereq type="default">mysql-server</packagereq>
+      <packagereq type="default">php-opcache</packagereq>
+      <packagereq type="default">php-xml</packagereq>
+      <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postgrey</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
+      <packagereq type="default">ruby</packagereq>
+      <packagereq type="default">ruby-devel</packagereq>
+      <packagereq type="default">rubygems</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">webalizer</packagereq>
-      <packagereq type="default">fail2ban</packagereq>
-      <packagereq type="default">awstats</packagereq>
+      <packagereq type="optional">perl-DBD-Pg</packagereq>
+      <packagereq type="optional">php-odbc</packagereq>
+      <packagereq type="optional">php-pgsql</packagereq>
+      <packagereq type="optional">php-snmp</packagereq>
+      <packagereq type="optional">postgresql</packagereq>
+      <packagereq type="optional">postgresql-devel</packagereq>
+      <packagereq type="optional">postgresql-server</packagereq>
     </packagelist>
   </group>
-
   <group>
-   <id>virtualmin-lamp-minimal</id>
-   <default>false</default>
-   <uservisible>true</uservisible>
-   <display_order>1024</display_order>
-   <name>Virtualmin LAMP Stack Minimal</name>
-   <description>Virtualmin with Apache, MySQL, and PHP/Perl/Python for low-memory systems</description>
+    <id>virtualmin-lamp-minimal</id>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <display_order>1024</display_order>
+    <name>Virtualmin LAMP Stack Minimal</name>
+    <description>Virtualmin with Apache, MySQL, and PHP/Perl/Python for low-memory systems</description>
     <packagelist>
       <packagereq type="mandatory">bind</packagereq>
       <packagereq type="mandatory">bind-utils</packagereq>
@@ -85,120 +106,118 @@
       <packagereq type="mandatory">httpd-itk</packagereq>
       <packagereq type="mandatory">iptables</packagereq>
       <packagereq type="mandatory">mod_ssl</packagereq>
-      <packagereq type="default">mod_fcgid</packagereq>
-      <packagereq type="default">mysql-server</packagereq>
-      <packagereq type="default">mysql-devel</packagereq>
-      <packagereq type="default">mysql</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
       <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
       <packagereq type="mandatory">perl-JSON-PP</packagereq>
-      <packagereq type="mandatory">perl-Module-Load</packagereq>
-      <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-JSON-XS</packagereq>
       <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
       <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
-      <packagereq type="mandatory">perl-XML-Simple</packagereq>
-      <packagereq type="default">perl-Config-IniFiles</packagereq>
+      <packagereq type="mandatory">perl-Module-Load</packagereq>
       <packagereq type="mandatory">perl-parent</packagereq>
+      <packagereq type="mandatory">perl-Time-HiRes</packagereq>
+      <packagereq type="mandatory">perl-XML-Simple</packagereq>
       <packagereq type="mandatory">php</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
-      <packagereq type="default">php-mbstring</packagereq>
       <packagereq type="mandatory">php-mysql</packagereq>
-      <packagereq type="default">php-opcache</packagereq>
       <packagereq type="mandatory">php-pear</packagereq>
-      <packagereq type="optional">php-pgsql</packagereq>
-      <packagereq type="optional">php-snmp</packagereq>
-      <packagereq type="default">php-xml</packagereq>
-      <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
+      <packagereq type="default">fail2ban</packagereq>
+      <packagereq type="default">jailkit</packagereq>
+      <packagereq type="default">logrotate</packagereq>
+      <packagereq type="default">mod_fcgid</packagereq>
+      <packagereq type="default">mysql</packagereq>
+      <packagereq type="default">mysql-devel</packagereq>
+      <packagereq type="default">mysql-server</packagereq>
+      <packagereq type="default">perl-Config-IniFiles</packagereq>
+      <packagereq type="default">php-mbstring</packagereq>
+      <packagereq type="default">php-opcache</packagereq>
+      <packagereq type="default">php-xml</packagereq>
+      <packagereq type="default">php-xmlrpc</packagereq>
+      <packagereq type="default">proftpd</packagereq>
+      <packagereq type="optional">awstats</packagereq>
       <packagereq type="optional">clamav</packagereq>
       <packagereq type="optional">cyrus-sasl</packagereq>
       <packagereq type="optional">cyrus-sasl-gssapi</packagereq>
       <packagereq type="optional">dkim-milter</packagereq>
       <packagereq type="optional">dovecot</packagereq>
-      <packagereq type="default">jailkit</packagereq>
-      <packagereq type="default">logrotate</packagereq>
+      <packagereq type="optional">perl-DBD-Pg</packagereq>
+      <packagereq type="optional">php-pgsql</packagereq>
+      <packagereq type="optional">php-snmp</packagereq>
       <packagereq type="optional">postgresql</packagereq>
       <packagereq type="optional">postgresql-devel</packagereq>
       <packagereq type="optional">postgresql-server</packagereq>
-      <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">postgrey</packagereq>
       <packagereq type="optional">procmail-wrapper</packagereq>
-      <packagereq type="default">proftpd</packagereq>
       <packagereq type="optional">spamassassin</packagereq>
       <packagereq type="optional">webalizer</packagereq>
-      <packagereq type="default">fail2ban</packagereq>
-      <packagereq type="optional">awstats</packagereq>
     </packagelist>
   </group>
-
   <group>
-   <id>virtualmin-lemp</id>
-   <default>false</default>
-   <uservisible>true</uservisible>
-   <display_order>1024</display_order>
-   <name>Virtualmin LEMP Stack</name>
-   <description>Virtualmin with nginx, MySQL, and PHP/Perl/Python/Ruby</description>
+    <id>virtualmin-lemp</id>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <display_order>1024</display_order>
+    <name>Virtualmin LEMP Stack</name>
+    <description>Virtualmin with nginx, MySQL, and PHP/Perl/Python/Ruby</description>
     <packagelist>
       <packagereq type="mandatory">bind</packagereq>
       <packagereq type="mandatory">bind-utils</packagereq>
-      <packagereq type="mandatory">nginx</packagereq>
       <packagereq type="mandatory">iptables</packagereq>
+      <packagereq type="mandatory">nginx</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
+      <packagereq type="mandatory">perl-Config-IniFiles</packagereq>
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
       <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
       <packagereq type="mandatory">perl-JSON-XS</packagereq>
       <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
       <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
-      <packagereq type="mandatory">perl-XML-Simple</packagereq>
-      <packagereq type="mandatory">perl-Config-IniFiles</packagereq>
       <packagereq type="mandatory">perl-Module-Load</packagereq>
-      <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-parent</packagereq>
+      <packagereq type="mandatory">perl-Time-HiRes</packagereq>
+      <packagereq type="mandatory">perl-XML-Simple</packagereq>
       <packagereq type="mandatory">php</packagereq>
       <packagereq type="mandatory">php-fpm</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
       <packagereq type="mandatory">php-mbstring</packagereq>
       <packagereq type="mandatory">php-mysql</packagereq>
-      <packagereq type="optional">php-odbc</packagereq>
-      <packagereq type="default">php-opcache</packagereq>
       <packagereq type="mandatory">php-pear</packagereq>
-      <packagereq type="optional">php-pgsql</packagereq>
-      <packagereq type="optional">php-snmp</packagereq>
-      <packagereq type="default">php-xml</packagereq>
-      <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
-      <packagereq type="default">ruby</packagereq>
-      <packagereq type="default">ruby-devel</packagereq>
-      <packagereq type="default">rubygems</packagereq>
+      <packagereq type="default">awstats</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">dkim-milter</packagereq>
       <packagereq type="default">dovecot</packagereq>
+      <packagereq type="default">fail2ban</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
-      <packagereq type="optional">postgresql</packagereq>
-      <packagereq type="optional">postgresql-devel</packagereq>
-      <packagereq type="optional">postgresql-server</packagereq>
-      <packagereq type="optional">perl-DBD-Pg</packagereq>
+      <packagereq type="default">php-opcache</packagereq>
+      <packagereq type="default">php-xml</packagereq>
+      <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postgrey</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
+      <packagereq type="default">ruby</packagereq>
+      <packagereq type="default">ruby-devel</packagereq>
+      <packagereq type="default">rubygems</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">webalizer</packagereq>
-      <packagereq type="default">fail2ban</packagereq>
-      <packagereq type="default">awstats</packagereq>
+      <packagereq type="optional">perl-DBD-Pg</packagereq>
+      <packagereq type="optional">php-odbc</packagereq>
+      <packagereq type="optional">php-pgsql</packagereq>
+      <packagereq type="optional">php-snmp</packagereq>
+      <packagereq type="optional">postgresql</packagereq>
+      <packagereq type="optional">postgresql-devel</packagereq>
+      <packagereq type="optional">postgresql-server</packagereq>
     </packagelist>
   </group>
-
   <group>
     <id>virtualmin-lemp-minimal</id>
     <default>false</default>
@@ -209,81 +228,57 @@
     <packagelist>
       <packagereq type="mandatory">bind</packagereq>
       <packagereq type="mandatory">bind-utils</packagereq>
-      <packagereq type="mandatory">nginx</packagereq>
       <packagereq type="mandatory">iptables</packagereq>
       <packagereq type="mandatory">mod_ssl</packagereq>
-      <packagereq type="default">mod_fcgid</packagereq>
-      <packagereq type="default">mysql-server</packagereq>
-      <packagereq type="default">mysql-devel</packagereq>
-      <packagereq type="default">mysql</packagereq>
+      <packagereq type="mandatory">nginx</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
       <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
       <packagereq type="mandatory">perl-JSON-PP</packagereq>
-      <packagereq type="mandatory">perl-Module-Load</packagereq>
-      <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-JSON-XS</packagereq>
       <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
       <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
-      <packagereq type="mandatory">perl-XML-Simple</packagereq>
-      <packagereq type="default">perl-Config-IniFiles</packagereq>
+      <packagereq type="mandatory">perl-Module-Load</packagereq>
       <packagereq type="mandatory">perl-parent</packagereq>
+      <packagereq type="mandatory">perl-Time-HiRes</packagereq>
+      <packagereq type="mandatory">perl-XML-Simple</packagereq>
       <packagereq type="mandatory">php</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
-      <packagereq type="default">php-mbstring</packagereq>
       <packagereq type="mandatory">php-mysql</packagereq>
-      <packagereq type="default">php-opcache</packagereq>
       <packagereq type="mandatory">php-pear</packagereq>
-      <packagereq type="optional">php-pgsql</packagereq>
-      <packagereq type="optional">php-snmp</packagereq>
-      <packagereq type="default">php-xml</packagereq>
-      <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
+      <packagereq type="default">fail2ban</packagereq>
+      <packagereq type="default">jailkit</packagereq>
+      <packagereq type="default">logrotate</packagereq>
+      <packagereq type="default">mod_fcgid</packagereq>
+      <packagereq type="default">mysql</packagereq>
+      <packagereq type="default">mysql-devel</packagereq>
+      <packagereq type="default">mysql-server</packagereq>
+      <packagereq type="default">perl-Config-IniFiles</packagereq>
+      <packagereq type="default">php-mbstring</packagereq>
+      <packagereq type="default">php-opcache</packagereq>
+      <packagereq type="default">php-xml</packagereq>
+      <packagereq type="default">php-xmlrpc</packagereq>
+      <packagereq type="default">proftpd</packagereq>
+      <packagereq type="optional">awstats</packagereq>
       <packagereq type="optional">clamav</packagereq>
       <packagereq type="optional">cyrus-sasl</packagereq>
       <packagereq type="optional">cyrus-sasl-gssapi</packagereq>
       <packagereq type="optional">dkim-milter</packagereq>
       <packagereq type="optional">dovecot</packagereq>
-      <packagereq type="default">jailkit</packagereq>
-      <packagereq type="default">logrotate</packagereq>
+      <packagereq type="optional">perl-DBD-Pg</packagereq>
+      <packagereq type="optional">php-pgsql</packagereq>
+      <packagereq type="optional">php-snmp</packagereq>
       <packagereq type="optional">postgresql</packagereq>
       <packagereq type="optional">postgresql-devel</packagereq>
       <packagereq type="optional">postgresql-server</packagereq>
-      <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">postgrey</packagereq>
       <packagereq type="optional">procmail-wrapper</packagereq>
-      <packagereq type="default">proftpd</packagereq>
       <packagereq type="optional">spamassassin</packagereq>
       <packagereq type="optional">webalizer</packagereq>
-      <packagereq type="default">fail2ban</packagereq>
-      <packagereq type="optional">awstats</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
-   <id>scl-php70</id>
-   <default>false</default>
-   <uservisible>true</uservisible>
-   <display_order>1024</display_order>
-   <name>Software Collections PHP 7 Environment</name>
-   <description>Most commonly used PHP 7 packages from Software Collections</description>
-    <packagelist>
-      <packagereq type="mandatory">rh-php70</packagereq>
-      <packagereq type="mandatory">rh-php70-php</packagereq>
-      <packagereq type="mandatory">rh-php70-php-fpm</packagereq>
-      <packagereq type="default">rh-php70-php-bcmath</packagereq>
-      <packagereq type="default">rh-php70-php-mbstring</packagereq>
-      <packagereq type="default">rh-php70-php-xmlrpc</packagereq>
-      <packagereq type="default">rh-php70-php-opcache</packagereq>
-      <packagereq type="default">rh-php70-php-devel</packagereq>
-      <packagereq type="default">rh-php70-php-gd</packagereq>
-      <packagereq type="default">rh-php70-php-gdm</packagereq>
-      <packagereq type="default">rh-php70-php-mysqlnd</packagereq>
-      <packagereq type="default">rh-php70-php-pdo</packagereq>
-      <packagereq type="default">rh-php70-php-pspell</packagereq>
     </packagelist>
   </group>
 </comps>
