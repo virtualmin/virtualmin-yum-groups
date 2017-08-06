@@ -229,7 +229,6 @@
       <packagereq type="mandatory">bind</packagereq>
       <packagereq type="mandatory">bind-utils</packagereq>
       <packagereq type="mandatory">iptables</packagereq>
-      <packagereq type="mandatory">mod_ssl</packagereq>
       <packagereq type="mandatory">nginx</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
