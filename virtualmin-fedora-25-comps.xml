@@ -58,6 +58,7 @@
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postgrey</packagereq>
+      <packagereq type="default">procmail</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">ruby</packagereq>
@@ -129,6 +130,7 @@
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postgrey</packagereq>
+      <packagereq type="default">procmail</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">ruby</packagereq>

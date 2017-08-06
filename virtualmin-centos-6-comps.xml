@@ -76,6 +76,7 @@
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postgrey</packagereq>
+      <packagereq type="default">procmail</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">ruby</packagereq>
@@ -125,6 +126,8 @@
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
+      <packagereq type="default">clamav</packagereq>
+      <packagereq type="default">dkim-milter</packagereq>
       <packagereq type="default">fail2ban</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
@@ -137,12 +140,13 @@
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
+      <packagereq type="default">procmail</packagereq>
+      <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
+      <packagereq type="default">spamassassin</packagereq>
       <packagereq type="optional">awstats</packagereq>
-      <packagereq type="optional">clamav</packagereq>
       <packagereq type="optional">cyrus-sasl</packagereq>
       <packagereq type="optional">cyrus-sasl-gssapi</packagereq>
-      <packagereq type="optional">dkim-milter</packagereq>
       <packagereq type="optional">dovecot</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
@@ -151,8 +155,6 @@
       <packagereq type="optional">postgresql-devel</packagereq>
       <packagereq type="optional">postgresql-server</packagereq>
       <packagereq type="optional">postgrey</packagereq>
-      <packagereq type="optional">procmail-wrapper</packagereq>
-      <packagereq type="optional">spamassassin</packagereq>
       <packagereq type="optional">webalizer</packagereq>
     </packagelist>
   </group>
@@ -202,6 +204,7 @@
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postgrey</packagereq>
+      <packagereq type="default">procmail</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">ruby</packagereq>
@@ -249,6 +252,8 @@
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
+      <packagereq type="default">clamav</packagereq>
+      <packagereq type="default">dkim-milter</packagereq>
       <packagereq type="default">fail2ban</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
@@ -261,12 +266,13 @@
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
+      <packagereq type="default">procmail</packagereq>
+      <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
+      <packagereq type="default">spamassassin</packagereq>
       <packagereq type="optional">awstats</packagereq>
-      <packagereq type="optional">clamav</packagereq>
       <packagereq type="optional">cyrus-sasl</packagereq>
       <packagereq type="optional">cyrus-sasl-gssapi</packagereq>
-      <packagereq type="optional">dkim-milter</packagereq>
       <packagereq type="optional">dovecot</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
@@ -275,8 +281,6 @@
       <packagereq type="optional">postgresql-devel</packagereq>
       <packagereq type="optional">postgresql-server</packagereq>
       <packagereq type="optional">postgrey</packagereq>
-      <packagereq type="optional">procmail-wrapper</packagereq>
-      <packagereq type="optional">spamassassin</packagereq>
       <packagereq type="optional">webalizer</packagereq>
     </packagelist>
   </group>
