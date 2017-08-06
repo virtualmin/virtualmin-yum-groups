@@ -40,7 +40,6 @@
       <packagereq type="mandatory">iptables</packagereq>
       <packagereq type="mandatory">mod_ssl</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
-      <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
       <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
       <packagereq type="mandatory">perl-JSON-PP</packagereq>
@@ -77,6 +76,7 @@
       <packagereq type="default">mariadb-devel</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
+      <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
@@ -105,15 +105,12 @@
     <name>Virtualmin LAMP Stack Minimal</name>
     <description>Virtualmin with Apache, MariaDB, and PHP/Perl/Python/Ruby for low-memory systems</description>
     <packagelist>
-      <packagereq type="default">bind</packagereq>
-      <packagereq type="default">bind-utils</packagereq>
       <packagereq type="mandatory">ca-certificates</packagereq>
       <packagereq type="mandatory">httpd</packagereq>
       <packagereq type="mandatory">httpd-itk</packagereq>
       <packagereq type="mandatory">iptables</packagereq>
       <packagereq type="mandatory">mod_ssl</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
-      <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
       <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
       <packagereq type="mandatory">perl-JSON-PP</packagereq>
@@ -132,11 +129,9 @@
       <packagereq type="mandatory">php-pear</packagereq>
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
-      <packagereq type="optional">awstats</packagereq>
+      <packagereq type="default">bind</packagereq>
+      <packagereq type="default">bind-utils</packagereq>
       <packagereq type="default">clamav</packagereq>
-      <packagereq type="optional">clamav-scanner-systemd</packagereq>
-      <packagereq type="optional">clamav-server</packagereq>
-      <packagereq type="optional">clamav-server-systemd</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">dkim-milter</packagereq>
@@ -150,17 +145,18 @@
       <packagereq type="default">mariadb-devel</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
+      <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postgrey</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
-      <packagereq type="optional">ruby</packagereq>
-      <packagereq type="optional">ruby-devel</packagereq>
-      <packagereq type="optional">rubygems</packagereq>
       <packagereq type="default">spamassassin</packagereq>
-      <packagereq type="optional">webalizer</packagereq>
+      <packagereq type="optional">awstats</packagereq>
+      <packagereq type="optional">clamav-scanner-systemd</packagereq>
+      <packagereq type="optional">clamav-server</packagereq>
+      <packagereq type="optional">clamav-server-systemd</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-odbc</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
@@ -168,6 +164,10 @@
       <packagereq type="optional">postgresql</packagereq>
       <packagereq type="optional">postgresql-devel</packagereq>
       <packagereq type="optional">postgresql-server</packagereq>
+      <packagereq type="optional">ruby</packagereq>
+      <packagereq type="optional">ruby-devel</packagereq>
+      <packagereq type="optional">rubygems</packagereq>
+      <packagereq type="optional">webalizer</packagereq>
     </packagelist>
   </group>
   <group>
@@ -183,7 +183,6 @@
       <packagereq type="mandatory">iptables</packagereq>
       <packagereq type="mandatory">nginx</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
-      <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
       <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
       <packagereq type="mandatory">perl-JSON-PP</packagereq>
@@ -220,6 +219,7 @@
       <packagereq type="default">mariadb</packagereq>
       <packagereq type="default">mariadb-devel</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
+      <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">php-odbc</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
@@ -248,13 +248,10 @@
     <name>Virtualmin LEMP Stack Minimal</name>
     <description>Virtualmin with nginx, MariaDB, and PHP/Perl/Python/Ruby for low-memory systems</description>
     <packagelist>
-      <packagereq type="default">bind</packagereq>
-      <packagereq type="default">bind-utils</packagereq>
       <packagereq type="mandatory">ca-certificates</packagereq>
-      <packagereq type="mandatory">nginx</packagereq>
       <packagereq type="mandatory">iptables</packagereq>
+      <packagereq type="mandatory">nginx</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
-      <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
       <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
       <packagereq type="mandatory">perl-JSON-PP</packagereq>
@@ -273,11 +270,9 @@
       <packagereq type="mandatory">php-pear</packagereq>
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
-      <packagereq type="optional">awstats</packagereq>
+      <packagereq type="default">bind</packagereq>
+      <packagereq type="default">bind-utils</packagereq>
       <packagereq type="default">clamav</packagereq>
-      <packagereq type="optional">clamav-scanner-systemd</packagereq>
-      <packagereq type="optional">clamav-server</packagereq>
-      <packagereq type="optional">clamav-server-systemd</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">dkim-milter</packagereq>
@@ -291,17 +286,18 @@
       <packagereq type="default">mariadb-devel</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
+      <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postgrey</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
-      <packagereq type="optional">ruby</packagereq>
-      <packagereq type="optional">ruby-devel</packagereq>
-      <packagereq type="optional">rubygems</packagereq>
       <packagereq type="default">spamassassin</packagereq>
-      <packagereq type="optional">webalizer</packagereq>
+      <packagereq type="optional">awstats</packagereq>
+      <packagereq type="optional">clamav-scanner-systemd</packagereq>
+      <packagereq type="optional">clamav-server</packagereq>
+      <packagereq type="optional">clamav-server-systemd</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-odbc</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
@@ -309,6 +305,10 @@
       <packagereq type="optional">postgresql</packagereq>
       <packagereq type="optional">postgresql-devel</packagereq>
       <packagereq type="optional">postgresql-server</packagereq>
+      <packagereq type="optional">ruby</packagereq>
+      <packagereq type="optional">ruby-devel</packagereq>
+      <packagereq type="optional">rubygems</packagereq>
+      <packagereq type="optional">webalizer</packagereq>
     </packagelist>
   </group>
 </comps>
