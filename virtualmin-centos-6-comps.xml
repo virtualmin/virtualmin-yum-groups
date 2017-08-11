@@ -51,6 +51,7 @@
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
       <packagereq type="mandatory">php</packagereq>
+      <packagereq type="mandatory">php-fpm</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
       <packagereq type="mandatory">php-mbstring</packagereq>
@@ -119,6 +120,7 @@
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
       <packagereq type="mandatory">php</packagereq>
+      <packagereq type="mandatory">php-fpm</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
       <packagereq type="mandatory">php-mysql</packagereq>
@@ -245,6 +247,7 @@
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
       <packagereq type="mandatory">php</packagereq>
+      <packagereq type="mandatory">php-fpm</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
       <packagereq type="mandatory">php-mysql</packagereq>
