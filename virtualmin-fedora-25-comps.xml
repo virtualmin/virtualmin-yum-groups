@@ -36,8 +36,8 @@
       <packagereq type="mandatory">php-mysql</packagereq>
       <packagereq type="mandatory">php-pear</packagereq>
       <packagereq type="mandatory">python</packagereq>
-      <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="mandatory">quota</packagereq>
+      <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="default">awstats</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">clamav-scanner-systemd</packagereq>
@@ -109,8 +109,8 @@
       <packagereq type="mandatory">php-mysql</packagereq>
       <packagereq type="mandatory">php-pear</packagereq>
       <packagereq type="mandatory">python</packagereq>
-      <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="mandatory">quota</packagereq>
+      <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="default">awstats</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
