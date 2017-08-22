@@ -10,7 +10,7 @@
     <description>Most commonly used PHP 7 packages from Software Collections</description>
     <packagelist>
       <packagereq type="mandatory">rh-php70</packagereq>
-      <packagereq type="mandatory">rh-php70-php</packagereq>
+      <packagereq type="mandatory">rh-php70-php-cli</packagereq>
       <packagereq type="mandatory">rh-php70-php-fpm</packagereq>
       <packagereq type="default">rh-php70-php-bcmath</packagereq>
       <packagereq type="default">rh-php70-php-devel</packagereq>
@@ -50,7 +50,7 @@
       <packagereq type="mandatory">perl-parent</packagereq>
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
-      <packagereq type="mandatory">php</packagereq>
+      <packagereq type="mandatory">php-cli</packagereq>
       <packagereq type="mandatory">php-fpm</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
@@ -124,7 +124,7 @@
       <packagereq type="mandatory">perl-parent</packagereq>
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
-      <packagereq type="mandatory">php</packagereq>
+      <packagereq type="mandatory">php-cli</packagereq>
       <packagereq type="mandatory">php-fpm</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
@@ -199,7 +199,7 @@
       <packagereq type="mandatory">perl-parent</packagereq>
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
-      <packagereq type="mandatory">php</packagereq>
+      <packagereq type="mandatory">php-cli</packagereq>
       <packagereq type="mandatory">php-fpm</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
@@ -270,7 +270,7 @@
       <packagereq type="mandatory">perl-parent</packagereq>
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
-      <packagereq type="mandatory">php</packagereq>
+      <packagereq type="mandatory">php-cli</packagereq>
       <packagereq type="mandatory">php-fpm</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
