@@ -209,6 +209,8 @@
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
+      <packagereq type="mandatory">wbm-virtualmin-nginx</packagereq>
+      <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
       <packagereq type="default">awstats</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
@@ -280,6 +282,8 @@
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
+      <packagereq type="mandatory">wbm-virtualmin-nginx</packagereq>
+      <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
       <packagereq type="default">bind</packagereq>
       <packagereq type="default">bind-utils</packagereq>
       <packagereq type="default">clamav</packagereq>
