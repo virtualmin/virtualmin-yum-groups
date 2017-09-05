@@ -45,7 +45,7 @@
       <packagereq type="default">clamav-server-systemd</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
-      <packagereq type="default">dkim-milter</packagereq>
+      <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">dovecot</packagereq>
       <packagereq type="default">fail2ban-firewalld</packagereq>
       <packagereq type="default">fail2ban-server</packagereq>
@@ -120,7 +120,7 @@
       <packagereq type="default">clamav-server-systemd</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
-      <packagereq type="default">dkim-milter</packagereq>
+      <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">dovecot</packagereq>
       <packagereq type="default">fail2ban-firewalld</packagereq>
       <packagereq type="default">fail2ban-server</packagereq>

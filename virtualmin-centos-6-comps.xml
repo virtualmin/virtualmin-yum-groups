@@ -64,7 +64,7 @@
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
-      <packagereq type="default">dkim-milter</packagereq>
+      <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">dovecot</packagereq>
       <packagereq type="default">fail2ban</packagereq>
       <packagereq type="default">jailkit</packagereq>
@@ -130,7 +130,7 @@
       <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
-      <packagereq type="default">dkim-milter</packagereq>
+      <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">fail2ban</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
@@ -202,7 +202,7 @@
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
-      <packagereq type="default">dkim-milter</packagereq>
+      <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">dovecot</packagereq>
       <packagereq type="default">fail2ban</packagereq>
       <packagereq type="default">jailkit</packagereq>
@@ -265,7 +265,7 @@
       <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
-      <packagereq type="default">dkim-milter</packagereq>
+      <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">fail2ban</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
