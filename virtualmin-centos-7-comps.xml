@@ -67,7 +67,7 @@
       <packagereq type="default">clamav-server-systemd</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
-      <packagereq type="default">opendkim</packagereq>
+      <packagereq type="default">cyrus-sasl-plain</packagereq>
       <packagereq type="default">dovecot</packagereq>
       <packagereq type="default">fail2ban-firewalld</packagereq>
       <packagereq type="default">fail2ban-server</packagereq>
@@ -78,6 +78,7 @@
       <packagereq type="default">mariadb-devel</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
+      <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">php</packagereq>
       <packagereq type="default">php-opcache</packagereq>
@@ -140,7 +141,7 @@
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
-      <packagereq type="default">opendkim</packagereq>
+      <packagereq type="default">cyrus-sasl-plain</packagereq>
       <packagereq type="default">dovecot</packagereq>
       <packagereq type="default">fail2ban-firewalld</packagereq>
       <packagereq type="default">fail2ban-server</packagereq>
@@ -151,6 +152,7 @@
       <packagereq type="default">mariadb-devel</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
+      <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">php</packagereq>
       <packagereq type="default">php-opcache</packagereq>
@@ -221,7 +223,7 @@
       <packagereq type="default">clamav-server-systemd</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
-      <packagereq type="default">opendkim</packagereq>
+      <packagereq type="default">cyrus-sasl-plain</packagereq>
       <packagereq type="default">dovecot</packagereq>
       <packagereq type="default">fail2ban-firewalld</packagereq>
       <packagereq type="default">fail2ban-server</packagereq>
@@ -230,6 +232,7 @@
       <packagereq type="default">mariadb</packagereq>
       <packagereq type="default">mariadb-devel</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
+      <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">php</packagereq>
       <packagereq type="default">php-odbc</packagereq>
@@ -292,7 +295,7 @@
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
-      <packagereq type="default">opendkim</packagereq>
+      <packagereq type="default">cyrus-sasl-plain</packagereq>
       <packagereq type="default">dovecot</packagereq>
       <packagereq type="default">fail2ban-firewalld</packagereq>
       <packagereq type="default">fail2ban-server</packagereq>
@@ -303,6 +306,7 @@
       <packagereq type="default">mariadb-devel</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
+      <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">php</packagereq>
       <packagereq type="default">php-opcache</packagereq>
