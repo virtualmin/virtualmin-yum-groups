@@ -57,7 +57,6 @@
       <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
       <packagereq type="default">opendkim</packagereq>
-      <packagereq type="default">php</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
@@ -131,7 +130,6 @@
       <packagereq type="default">mariadb-devel</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">opendkim</packagereq>
-      <packagereq type="default">php</packagereq>
       <packagereq type="default">php-odbc</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
