@@ -135,7 +135,7 @@
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">cyrus-sasl-plain</packagereq>
-      <packagereq type="default">fail2ban</packagereq>
+      <packagereq type="default">dovecot</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
@@ -153,7 +153,7 @@
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="optional">awstats</packagereq>
-      <packagereq type="optional">dovecot</packagereq>
+      <packagereq type="optional">fail2ban</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
       <packagereq type="optional">php-snmp</packagereq>
@@ -271,10 +271,9 @@
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">cyrus-sasl-plain</packagereq>
-      <packagereq type="default">fail2ban</packagereq>
+      <packagereq type="default">dovecot</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
-      <packagereq type="default">mod_fcgid</packagereq>
       <packagereq type="default">mysql</packagereq>
       <packagereq type="default">mysql-devel</packagereq>
       <packagereq type="default">mysql-server</packagereq>
@@ -289,7 +288,7 @@
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="optional">awstats</packagereq>
-      <packagereq type="optional">dovecot</packagereq>
+      <packagereq type="optional">fail2ban</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
       <packagereq type="optional">php-snmp</packagereq>
