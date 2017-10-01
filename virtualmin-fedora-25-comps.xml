@@ -75,6 +75,7 @@
       <packagereq type="optional">postgresql</packagereq>
       <packagereq type="optional">postgresql-devel</packagereq>
       <packagereq type="optional">postgresql-server</packagereq>
+      <packagereq type="default">milter-greylist</packagereq>
     </packagelist>
   </group>
   <group>
@@ -147,6 +148,7 @@
       <packagereq type="optional">postgresql</packagereq>
       <packagereq type="optional">postgresql-devel</packagereq>
       <packagereq type="optional">postgresql-server</packagereq>
+      <packagereq type="default">milter-greylist</packagereq>
     </packagelist>
   </group>
 </comps>

@@ -76,6 +76,7 @@
       <packagereq type="optional">postgresql</packagereq>
       <packagereq type="optional">postgresql-devel</packagereq>
       <packagereq type="optional">postgresql-server</packagereq>
+      <packagereq type="default">milter-greylist</packagereq>
     </packagelist>
   </group>
   <group>
@@ -112,6 +113,7 @@
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
+      <packagereq type="default">milter-greylist</packagereq>
       <packagereq type="default">awstats</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>

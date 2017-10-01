@@ -100,6 +100,7 @@
       <packagereq type="optional">postgresql</packagereq>
       <packagereq type="optional">postgresql-devel</packagereq>
       <packagereq type="optional">postgresql-server</packagereq>
+      <packagereq type="default">milter-greylist</packagereq>
     </packagelist>
   </group>
   <group>
@@ -177,6 +178,7 @@
       <packagereq type="optional">ruby</packagereq>
       <packagereq type="optional">ruby-devel</packagereq>
       <packagereq type="optional">rubygems</packagereq>
+      <packagereq type="optional">milter-greylist</packagereq>
       <packagereq type="optional">webalizer</packagereq>
     </packagelist>
   </group>
@@ -247,6 +249,7 @@
       <packagereq type="default">rubygems</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">webalizer</packagereq>
+      <packagereq type="default">milter-greylist</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
       <packagereq type="optional">php-snmp</packagereq>
@@ -329,6 +332,7 @@
       <packagereq type="optional">ruby-devel</packagereq>
       <packagereq type="optional">rubygems</packagereq>
       <packagereq type="optional">webalizer</packagereq>
+      <packagereq type="optional">milter-greylist</packagereq>
     </packagelist>
   </group>
 </comps>
