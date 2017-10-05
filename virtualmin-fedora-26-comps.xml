@@ -39,6 +39,7 @@
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="default">awstats</packagereq>
+      <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">clamav-scanner-systemd</packagereq>
       <packagereq type="default">clamav-server</packagereq>
@@ -55,8 +56,10 @@
       <packagereq type="default">mariadb</packagereq>
       <packagereq type="default">mariadb-devel</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
+      <packagereq type="default">milter-greylist</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
       <packagereq type="default">opendkim</packagereq>
+      <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
@@ -69,6 +72,7 @@
       <packagereq type="default">rubygems</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">webalizer</packagereq>
+      <packagereq type="default">xz</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-odbc</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
@@ -76,7 +80,6 @@
       <packagereq type="optional">postgresql</packagereq>
       <packagereq type="optional">postgresql-devel</packagereq>
       <packagereq type="optional">postgresql-server</packagereq>
-      <packagereq type="default">milter-greylist</packagereq>
     </packagelist>
   </group>
   <group>
@@ -113,8 +116,8 @@
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
-      <packagereq type="default">milter-greylist</packagereq>
       <packagereq type="default">awstats</packagereq>
+      <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">clamav-scanner-systemd</packagereq>
@@ -131,7 +134,9 @@
       <packagereq type="default">mariadb</packagereq>
       <packagereq type="default">mariadb-devel</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
+      <packagereq type="default">milter-greylist</packagereq>
       <packagereq type="default">opendkim</packagereq>
+      <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">php-odbc</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
@@ -145,6 +150,7 @@
       <packagereq type="default">rubygems</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">webalizer</packagereq>
+      <packagereq type="default">xz</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
       <packagereq type="optional">php-snmp</packagereq>

@@ -60,6 +60,7 @@
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="default">awstats</packagereq>
+      <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
@@ -69,11 +70,13 @@
       <packagereq type="default">fail2ban</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
+      <packagereq type="default">milter-greylist</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
       <packagereq type="default">mysql</packagereq>
       <packagereq type="default">mysql-devel</packagereq>
       <packagereq type="default">mysql-server</packagereq>
       <packagereq type="default">opendkim</packagereq>
+      <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">php</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
@@ -87,7 +90,7 @@
       <packagereq type="default">rubygems</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">webalizer</packagereq>
-      <packagereq type="default">milter-greylist</packagereq>
+      <packagereq type="default">xz</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-odbc</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
@@ -131,6 +134,7 @@
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
+      <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
@@ -144,6 +148,7 @@
       <packagereq type="default">mysql-devel</packagereq>
       <packagereq type="default">mysql-server</packagereq>
       <packagereq type="default">opendkim</packagereq>
+      <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">php-mbstring</packagereq>
       <packagereq type="default">php-opcache</packagereq>
@@ -153,8 +158,10 @@
       <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">spamassassin</packagereq>
+      <packagereq type="default">xz</packagereq>
       <packagereq type="optional">awstats</packagereq>
       <packagereq type="optional">fail2ban</packagereq>
+      <packagereq type="optional">milter-greylist</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
       <packagereq type="optional">php-snmp</packagereq>
@@ -163,7 +170,6 @@
       <packagereq type="optional">postgresql-server</packagereq>
       <packagereq type="optional">postgrey</packagereq>
       <packagereq type="optional">webalizer</packagereq>
-      <packagereq type="optional">milter-greylist</packagereq>
     </packagelist>
   </group>
   <group>
@@ -202,6 +208,7 @@
       <packagereq type="mandatory">wbm-virtualmin-nginx</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
       <packagereq type="default">awstats</packagereq>
+      <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
@@ -211,7 +218,9 @@
       <packagereq type="default">fail2ban</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
+      <packagereq type="default">milter-greylist</packagereq>
       <packagereq type="default">opendkim</packagereq>
+      <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">php</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
@@ -225,7 +234,7 @@
       <packagereq type="default">rubygems</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">webalizer</packagereq>
-      <packagereq type="default">milter-greylist</packagereq>
+      <packagereq type="default">xz</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-odbc</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
@@ -269,6 +278,7 @@
       <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
+      <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
@@ -281,6 +291,7 @@
       <packagereq type="default">mysql-devel</packagereq>
       <packagereq type="default">mysql-server</packagereq>
       <packagereq type="default">opendkim</packagereq>
+      <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">php-mbstring</packagereq>
       <packagereq type="default">php-opcache</packagereq>
@@ -290,8 +301,10 @@
       <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">spamassassin</packagereq>
+      <packagereq type="default">xz</packagereq>
       <packagereq type="optional">awstats</packagereq>
       <packagereq type="optional">fail2ban</packagereq>
+      <packagereq type="optional">milter-greylist</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
       <packagereq type="optional">php-snmp</packagereq>
@@ -300,7 +313,6 @@
       <packagereq type="optional">postgresql-server</packagereq>
       <packagereq type="optional">postgrey</packagereq>
       <packagereq type="optional">webalizer</packagereq>
-      <packagereq type="optional">milter-greylist</packagereq>
     </packagelist>
   </group>
 </comps>
