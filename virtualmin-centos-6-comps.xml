@@ -91,6 +91,7 @@
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">webalizer</packagereq>
       <packagereq type="default">xz</packagereq>
+      <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-odbc</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
@@ -119,6 +120,7 @@
       <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
       <packagereq type="mandatory">perl-JSON-PP</packagereq>
       <packagereq type="mandatory">perl-JSON-XS</packagereq>
+      <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
       <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
       <packagereq type="mandatory">perl-Module-Load</packagereq>
@@ -195,6 +197,7 @@
       <packagereq type="mandatory">perl-parent</packagereq>
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
+      <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="mandatory">php-cli</packagereq>
       <packagereq type="mandatory">php-fpm</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
@@ -270,6 +273,7 @@
       <packagereq type="mandatory">php-cli</packagereq>
       <packagereq type="mandatory">php-fpm</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
+      <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
       <packagereq type="mandatory">php-mysql</packagereq>
       <packagereq type="mandatory">php-pear</packagereq>

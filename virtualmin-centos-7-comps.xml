@@ -43,6 +43,7 @@
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
       <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
       <packagereq type="mandatory">perl-JSON-PP</packagereq>
+      <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="mandatory">perl-JSON-XS</packagereq>
       <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
       <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
@@ -137,6 +138,7 @@
       <packagereq type="mandatory">php-mbstring</packagereq>
       <packagereq type="mandatory">php-mysql</packagereq>
       <packagereq type="mandatory">php-pear</packagereq>
+      <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
@@ -233,6 +235,7 @@
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">cyrus-sasl-plain</packagereq>
+      <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="default">dovecot</packagereq>
       <packagereq type="default">fail2ban-firewalld</packagereq>
       <packagereq type="default">fail2ban-server</packagereq>
@@ -304,6 +307,7 @@
       <packagereq type="default">bind</packagereq>
       <packagereq type="default">bind-utils</packagereq>
       <packagereq type="default">bzip2</packagereq>
+      <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
