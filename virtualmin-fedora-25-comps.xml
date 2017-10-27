@@ -15,8 +15,6 @@
       <packagereq type="mandatory">httpd</packagereq>
       <packagereq type="mandatory">httpd-itk</packagereq>
       <packagereq type="mandatory">iptables</packagereq>
-      <packagereq type="default">perl-IO-Tty</packagereq>
-
       <packagereq type="mandatory">mod_ssl</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
       <packagereq type="mandatory">perl-Config-IniFiles</packagereq>
@@ -61,6 +59,7 @@
       <packagereq type="default">mod_fcgid</packagereq>
       <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">p7zip</packagereq>
+      <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
@@ -72,6 +71,7 @@
       <packagereq type="default">ruby-devel</packagereq>
       <packagereq type="default">rubygems</packagereq>
       <packagereq type="default">spamassassin</packagereq>
+      <packagereq type="default">wbm-virtualmin-awstats</packagereq>
       <packagereq type="default">webalizer</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
@@ -112,7 +112,6 @@
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
       <packagereq type="mandatory">php-mbstring</packagereq>
-      <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="mandatory">php-mysql</packagereq>
       <packagereq type="mandatory">php-pear</packagereq>
       <packagereq type="mandatory">python</packagereq>
@@ -138,6 +137,7 @@
       <packagereq type="default">milter-greylist</packagereq>
       <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">p7zip</packagereq>
+      <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="default">php-odbc</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
@@ -150,6 +150,7 @@
       <packagereq type="default">ruby-devel</packagereq>
       <packagereq type="default">rubygems</packagereq>
       <packagereq type="default">spamassassin</packagereq>
+      <packagereq type="default">wbm-virtualmin-awstats</packagereq>
       <packagereq type="default">webalizer</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>

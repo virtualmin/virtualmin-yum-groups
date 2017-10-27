@@ -26,8 +26,6 @@
       <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
       <packagereq type="mandatory">perl-Module-Load</packagereq>
       <packagereq type="mandatory">perl-parent</packagereq>
-      <packagereq type="default">perl-IO-Tty</packagereq>
-
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
       <packagereq type="mandatory">php-cli</packagereq>
@@ -62,6 +60,7 @@
       <packagereq type="default">mod_fcgid</packagereq>
       <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">p7zip</packagereq>
+      <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
@@ -73,6 +72,7 @@
       <packagereq type="default">ruby-devel</packagereq>
       <packagereq type="default">rubygems</packagereq>
       <packagereq type="default">spamassassin</packagereq>
+      <packagereq type="default">wbm-virtualmin-awstats</packagereq>
       <packagereq type="default">webalizer</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
@@ -123,7 +123,6 @@
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">clamav-scanner-systemd</packagereq>
-      <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="default">clamav-server</packagereq>
       <packagereq type="default">clamav-server-systemd</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
@@ -140,6 +139,7 @@
       <packagereq type="default">milter-greylist</packagereq>
       <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">p7zip</packagereq>
+      <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="default">php-odbc</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
@@ -152,6 +152,7 @@
       <packagereq type="default">ruby-devel</packagereq>
       <packagereq type="default">rubygems</packagereq>
       <packagereq type="default">spamassassin</packagereq>
+      <packagereq type="default">wbm-virtualmin-awstats</packagereq>
       <packagereq type="default">webalizer</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
