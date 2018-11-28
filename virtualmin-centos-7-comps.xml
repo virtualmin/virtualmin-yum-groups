@@ -2,26 +2,26 @@
 <!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
 <comps>
   <group>
-    <id>scl-php70</id>
+    <id>scl-php71</id>
     <default>false</default>
     <uservisible>true</uservisible>
     <display_order>1024</display_order>
     <name>Software Collections PHP 7 Environment</name>
     <description>Most commonly used PHP 7 packages from Software Collections</description>
     <packagelist>
-      <packagereq type="mandatory">rh-php70</packagereq>
-      <packagereq type="mandatory">rh-php70-php-cli</packagereq>
-      <packagereq type="mandatory">rh-php70-php-fpm</packagereq>
-      <packagereq type="default">rh-php70-php-bcmath</packagereq>
-      <packagereq type="default">rh-php70-php-devel</packagereq>
-      <packagereq type="default">rh-php70-php-gd</packagereq>
-      <packagereq type="default">rh-php70-php-gdm</packagereq>
-      <packagereq type="default">rh-php70-php-mbstring</packagereq>
-      <packagereq type="default">rh-php70-php-mysqlnd</packagereq>
-      <packagereq type="default">rh-php70-php-opcache</packagereq>
-      <packagereq type="default">rh-php70-php-pdo</packagereq>
-      <packagereq type="default">rh-php70-php-pspell</packagereq>
-      <packagereq type="default">rh-php70-php-xmlrpc</packagereq>
+      <packagereq type="mandatory">rh-php71</packagereq>
+      <packagereq type="mandatory">rh-php71-php-cli</packagereq>
+      <packagereq type="mandatory">rh-php71-php-fpm</packagereq>
+      <packagereq type="default">rh-php71-php-bcmath</packagereq>
+      <packagereq type="default">rh-php71-php-devel</packagereq>
+      <packagereq type="default">rh-php71-php-gd</packagereq>
+      <packagereq type="default">rh-php71-php-gdm</packagereq>
+      <packagereq type="default">rh-php71-php-mbstring</packagereq>
+      <packagereq type="default">rh-php71-php-mysqlnd</packagereq>
+      <packagereq type="default">rh-php71-php-opcache</packagereq>
+      <packagereq type="default">rh-php71-php-pdo</packagereq>
+      <packagereq type="default">rh-php71-php-pspell</packagereq>
+      <packagereq type="default">rh-php71-php-xmlrpc</packagereq>
     </packagelist>
   </group>
   <group>
@@ -70,6 +70,7 @@
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">cyrus-sasl-plain</packagereq>
       <packagereq type="default">dovecot</packagereq>
+      <packagereq type="default">etckeeper</packagereq>
       <packagereq type="default">fail2ban-firewalld</packagereq>
       <packagereq type="default">fail2ban-server</packagereq>
       <packagereq type="default">firewalld</packagereq>
@@ -84,7 +85,6 @@
       <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">perl-IO-Tty</packagereq>
-      <packagereq type="default">php</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
@@ -161,7 +161,6 @@
       <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">perl-IO-Tty</packagereq>
-      <packagereq type="default">php</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
@@ -237,6 +236,7 @@
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">cyrus-sasl-plain</packagereq>
       <packagereq type="default">dovecot</packagereq>
+      <packagereq type="default">etckeeper</packagereq>
       <packagereq type="default">fail2ban-firewalld</packagereq>
       <packagereq type="default">fail2ban-server</packagereq>
       <packagereq type="default">jailkit</packagereq>
