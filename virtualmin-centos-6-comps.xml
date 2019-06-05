@@ -24,6 +24,28 @@
     </packagelist>
   </group>
   <group>
+    <id>scl-php72</id>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <display_order>1024</display_order>
+    <name>Software Collections PHP 7.2 Environment</name>
+    <description>Most commonly used PHP 7.2 packages from Software Collections</description>
+    <packagelist>
+      <packagereq type="mandatory">rh-php72</packagereq>
+      <packagereq type="mandatory">rh-php72-php-fpm</packagereq>
+      <packagereq type="default">rh-php72-php-bcmath</packagereq>
+      <packagereq type="default">rh-php72-php-devel</packagereq>
+      <packagereq type="default">rh-php72-php-gd</packagereq>
+      <packagereq type="default">rh-php72-php-gdm</packagereq>
+      <packagereq type="default">rh-php72-php-mbstring</packagereq>
+      <packagereq type="default">rh-php72-php-mysqlnd</packagereq>
+      <packagereq type="default">rh-php72-php-opcache</packagereq>
+      <packagereq type="default">rh-php72-php-pdo</packagereq>
+      <packagereq type="default">rh-php72-php-pspell</packagereq>
+      <packagereq type="default">rh-php72-php-xmlrpc</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>virtualmin-lamp</id>
     <default>false</default>
     <uservisible>true</uservisible>
