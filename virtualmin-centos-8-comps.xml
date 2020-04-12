@@ -215,6 +215,7 @@
       <packagereq type="default">clamav-scanner-systemd</packagereq>
       <packagereq type="default">clamav-server</packagereq>
       <packagereq type="default">clamav-server-systemd</packagereq>
+      <packagereq type="default">clamd</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">cyrus-sasl-plain</packagereq>
