@@ -24,6 +24,7 @@
       <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
       <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
       <packagereq type="mandatory">perl-Module-Load</packagereq>
+      <packagereq type="mandatory">perl-open</packagereq>
       <packagereq type="mandatory">perl-parent</packagereq>
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
@@ -107,6 +108,7 @@
       <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
       <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
       <packagereq type="mandatory">perl-Module-Load</packagereq>
+      <packagereq type="mandatory">perl-open</packagereq>
       <packagereq type="mandatory">perl-parent</packagereq>
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
@@ -192,6 +194,7 @@
       <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
       <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
       <packagereq type="mandatory">perl-Module-Load</packagereq>
+      <packagereq type="mandatory">perl-open</packagereq>
       <packagereq type="mandatory">perl-parent</packagereq>
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
@@ -275,6 +278,7 @@
       <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
       <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
       <packagereq type="mandatory">perl-Module-Load</packagereq>
+      <packagereq type="mandatory">perl-open</packagereq>
       <packagereq type="mandatory">perl-parent</packagereq>
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
