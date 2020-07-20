@@ -117,6 +117,7 @@
       <packagereq type="default">rubygems</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">wbm-virtualmin-awstats</packagereq>
+      <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
       <packagereq type="default">webalizer</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
@@ -191,6 +192,7 @@
       <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">spamassassin</packagereq>
+      <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="optional">awstats</packagereq>
       <packagereq type="optional">fail2ban</packagereq>

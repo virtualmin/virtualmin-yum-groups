@@ -77,6 +77,7 @@
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">tar</packagereq>
       <packagereq type="default">wbm-virtualmin-awstats</packagereq>
+      <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
       <packagereq type="default">webalizer</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
@@ -155,6 +156,7 @@
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">tar</packagereq>
+      <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="optional">awstats</packagereq>
       <packagereq type="optional">clamav-scanner-systemd</packagereq>
