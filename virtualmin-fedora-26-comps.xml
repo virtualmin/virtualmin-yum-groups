@@ -37,6 +37,7 @@
       <packagereq type="mandatory">php-pear</packagereq>
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
+      <packagereq type="mandatory">zip</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="default">awstats</packagereq>
       <packagereq type="default">bzip2</packagereq>
@@ -117,7 +118,8 @@
       <packagereq type="mandatory">php-pear</packagereq>
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
-      <packagereq type="mandatory">unzip</packagereq>
+      <packagereq type="mandatory">zip</packagereq>
+<packagereq type="mandatory">unzip</packagereq>
       <packagereq type="default">awstats</packagereq>
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
