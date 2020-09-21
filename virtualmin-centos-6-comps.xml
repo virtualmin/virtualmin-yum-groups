@@ -80,8 +80,8 @@
       <packagereq type="mandatory">php-pear</packagereq>
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
+      <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="mandatory">zip</packagereq>
-<packagereq type="mandatory">unzip</packagereq>
       <packagereq type="default">awstats</packagereq>
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
@@ -105,7 +105,6 @@
       <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">perl-IO-Tty</packagereq>
-      <packagereq type="default">php</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
@@ -163,8 +162,8 @@
       <packagereq type="mandatory">php-pear</packagereq>
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
+      <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="mandatory">zip</packagereq>
-<packagereq type="mandatory">unzip</packagereq>
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
@@ -241,10 +240,10 @@
       <packagereq type="mandatory">php-pear</packagereq>
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
-      <packagereq type="mandatory">zip</packagereq>
-<packagereq type="mandatory">unzip</packagereq>
+      <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
+      <packagereq type="mandatory">zip</packagereq>
       <packagereq type="default">awstats</packagereq>
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
@@ -264,7 +263,6 @@
       <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">perl-IO-Tty</packagereq>
-      <packagereq type="default">php</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
@@ -319,10 +317,10 @@
       <packagereq type="mandatory">php-pear</packagereq>
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
-      <packagereq type="mandatory">zip</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
+      <packagereq type="mandatory">zip</packagereq>
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
