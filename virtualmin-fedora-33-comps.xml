@@ -28,6 +28,8 @@
       <packagereq type="mandatory">perl-parent</packagereq>
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
+      <packagereq type="mandatory">perl-File-Basename</packagereq>
+      <packagereq type="mandatory">perl-lib</packagereq>
       <packagereq type="mandatory">php-cli</packagereq>
       <packagereq type="mandatory">php-fpm</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
@@ -114,6 +116,8 @@
       <packagereq type="mandatory">perl-parent</packagereq>
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
+      <packagereq type="mandatory">perl-File-Basename</packagereq>
+      <packagereq type="mandatory">perl-lib</packagereq>
       <packagereq type="mandatory">php-cli</packagereq>
       <packagereq type="mandatory">php-fpm</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
@@ -201,6 +205,8 @@
       <packagereq type="mandatory">perl-parent</packagereq>
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
+      <packagereq type="mandatory">perl-File-Basename</packagereq>
+      <packagereq type="mandatory">perl-lib</packagereq>
       <packagereq type="mandatory">php-cli</packagereq>
       <packagereq type="mandatory">php-fpm</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
@@ -287,6 +293,8 @@
       <packagereq type="mandatory">perl-parent</packagereq>
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
+      <packagereq type="mandatory">perl-File-Basename</packagereq>
+      <packagereq type="mandatory">perl-lib</packagereq>
       <packagereq type="mandatory">php-cli</packagereq>
       <packagereq type="mandatory">php-fpm</packagereq>
       <packagereq type="mandatory">php-gd</packagereq>
