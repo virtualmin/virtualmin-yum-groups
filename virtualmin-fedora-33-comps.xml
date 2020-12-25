@@ -249,6 +249,8 @@
       <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">perl-IO-Tty</packagereq>
+      <packagereq type="default">php-json</packagereq>
+      <packagereq type="default">php-mysqlnd</packagereq>
       <packagereq type="default">php-odbc</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
@@ -332,6 +334,8 @@
       <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">perl-IO-Tty</packagereq>
+      <packagereq type="default">php-json</packagereq>
+      <packagereq type="default">php-mysqlnd</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
