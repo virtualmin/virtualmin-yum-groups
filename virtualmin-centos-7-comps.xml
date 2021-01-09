@@ -86,6 +86,7 @@
       <packagereq type="mandatory">zip</packagereq>
       <packagereq type="default">awstats</packagereq>
       <packagereq type="default">bzip2</packagereq>
+      <packagereq type="default">certbot</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">clamav-scanner-systemd</packagereq>
       <packagereq type="default">clamav-server</packagereq>
@@ -171,6 +172,7 @@
       <packagereq type="default">bind</packagereq>
       <packagereq type="default">bind-utils</packagereq>
       <packagereq type="default">bzip2</packagereq>
+      <packagereq type="default">certbot</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
@@ -256,6 +258,7 @@
       <packagereq type="mandatory">zip</packagereq>
       <packagereq type="default">awstats</packagereq>
       <packagereq type="default">bzip2</packagereq>
+      <packagereq type="default">certbot</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">clamav-scanner-systemd</packagereq>
@@ -339,6 +342,7 @@
       <packagereq type="default">bind</packagereq>
       <packagereq type="default">bind-utils</packagereq>
       <packagereq type="default">bzip2</packagereq>
+      <packagereq type="default">certbot</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
