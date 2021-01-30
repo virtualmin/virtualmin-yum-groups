@@ -40,6 +40,7 @@
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="mandatory">zip</packagereq>
+      <packagereq type="mandatory">cronie</packagereq>
       <packagereq type="mandatory">perl-Authen-OATH</packagereq>
       <packagereq type="default">awstats</packagereq>
       <packagereq type="default">bzip2</packagereq>
@@ -129,6 +130,7 @@
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="mandatory">zip</packagereq>
+      <packagereq type="mandatory">cronie</packagereq>
       <packagereq type="mandatory">perl-Authen-OATH</packagereq>
       <packagereq type="default">bind</packagereq>
       <packagereq type="default">bind-utils</packagereq>
@@ -222,6 +224,7 @@
       <packagereq type="mandatory">wbm-virtualmin-nginx</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
       <packagereq type="mandatory">zip</packagereq>
+      <packagereq type="mandatory">cronie</packagereq>
       <packagereq type="mandatory">perl-Authen-OATH</packagereq>
       <packagereq type="default">awstats</packagereq>
       <packagereq type="default">bzip2</packagereq>
@@ -313,6 +316,7 @@
       <packagereq type="mandatory">wbm-virtualmin-nginx</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
       <packagereq type="mandatory">zip</packagereq>
+      <packagereq type="mandatory">cronie</packagereq>
       <packagereq type="mandatory">perl-Authen-OATH</packagereq>
       <packagereq type="default">bind</packagereq>
       <packagereq type="default">bind-utils</packagereq>
