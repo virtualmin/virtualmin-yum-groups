@@ -9,7 +9,6 @@
     <name>Software Collections PHP 7 Environment</name>
     <description>Most commonly used PHP 7 packages from Software Collections</description>
     <packagelist>
-      <packagereq type="mandatory">rh-php70</packagereq>
       <packagereq type="mandatory">rh-php70-php-fpm</packagereq>
       <packagereq type="default">rh-php70-php-bcmath</packagereq>
       <packagereq type="default">rh-php70-php-devel</packagereq>
@@ -31,7 +30,6 @@
     <name>Software Collections PHP 7.2 Environment</name>
     <description>Most commonly used PHP 7.2 packages from Software Collections</description>
     <packagelist>
-      <packagereq type="mandatory">rh-php72</packagereq>
       <packagereq type="mandatory">rh-php72-php-fpm</packagereq>
       <packagereq type="default">rh-php72-php-bcmath</packagereq>
       <packagereq type="default">rh-php72-php-devel</packagereq>
