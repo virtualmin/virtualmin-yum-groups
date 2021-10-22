@@ -94,6 +94,7 @@
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">cyrus-sasl-plain</packagereq>
       <packagereq type="default">dovecot</packagereq>
+      <packagereq type="default">postfix</packagereq>
       <packagereq type="default">fail2ban-firewalld</packagereq>
       <packagereq type="default">fail2ban-server</packagereq>
       <packagereq type="default">firewalld</packagereq>
@@ -176,6 +177,7 @@
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">cyrus-sasl-plain</packagereq>
       <packagereq type="default">dovecot</packagereq>
+      <packagereq type="default">postfix</packagereq>
       <packagereq type="default">firewalld</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
@@ -267,6 +269,7 @@
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">cyrus-sasl-plain</packagereq>
       <packagereq type="default">dovecot</packagereq>
+      <packagereq type="default">postfix</packagereq>
       <packagereq type="default">fail2ban-firewalld</packagereq>
       <packagereq type="default">fail2ban-server</packagereq>
       <packagereq type="default">jailkit</packagereq>
@@ -346,6 +349,7 @@
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">cyrus-sasl-plain</packagereq>
       <packagereq type="default">dovecot</packagereq>
+      <packagereq type="default">postfix</packagereq>
       <packagereq type="default">firewalld</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
