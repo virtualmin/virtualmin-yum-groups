@@ -19,11 +19,8 @@
       <packagereq type="default">wbm-jailkit</packagereq>
       <packagereq type="default">wbm-php-pear</packagereq>
       <packagereq type="default">wbm-ruby-gems</packagereq>
-      <packagereq type="default">wbm-virtualmin-git</packagereq>
-      <packagereq type="default">wbm-virtualmin-init</packagereq>
-      <packagereq type="default">wbm-virtualmin-registrar</packagereq>
-      <packagereq type="default">wbm-virtualmin-slavedns</packagereq>
-      <packagereq type="default">wbm-virtualmin-sqlite</packagereq>
+      <packagereq type="default">wbm-virtualmin-awstats</packagereq>
+      <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
     </packagelist>
   </group>
 </comps>
