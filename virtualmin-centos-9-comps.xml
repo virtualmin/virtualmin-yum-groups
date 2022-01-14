@@ -43,6 +43,7 @@
       <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="mandatory">zip</packagereq>
       <packagereq type="default">awstats</packagereq>
+      <packagereq type="default">awscli</packagereq>
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">certbot</packagereq>
       <packagereq type="default">chrony</packagereq>
@@ -233,6 +234,7 @@
       <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
       <packagereq type="mandatory">zip</packagereq>
       <packagereq type="default">awstats</packagereq>
+      <packagereq type="default">awscli</packagereq>
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">certbot</packagereq>

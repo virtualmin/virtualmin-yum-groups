@@ -44,6 +44,7 @@
       <packagereq type="mandatory">cronie</packagereq>
       <packagereq type="mandatory">perl-Authen-OATH</packagereq>
       <packagereq type="default">awstats</packagereq>
+      <packagereq type="default">awscli</packagereq>
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">certbot</packagereq>
       <packagereq type="default">chrony</packagereq>
@@ -234,6 +235,7 @@
       <packagereq type="mandatory">cronie</packagereq>
       <packagereq type="mandatory">perl-Authen-OATH</packagereq>
       <packagereq type="default">awstats</packagereq>
+      <packagereq type="default">awscli</packagereq>
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">certbot</packagereq>
