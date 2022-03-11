@@ -122,7 +122,6 @@
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">wbm-virtualmin-awstats</packagereq>
       <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
-      <packagereq type="default">webalizer</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-odbc</packagereq>
@@ -217,7 +216,6 @@
       <packagereq type="optional">ruby</packagereq>
       <packagereq type="optional">ruby-devel</packagereq>
       <packagereq type="optional">rubygems</packagereq>
-      <packagereq type="optional">webalizer</packagereq>
     </packagelist>
   </group>
   <group>
@@ -295,7 +293,6 @@
       <packagereq type="default">rubygems</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">wbm-virtualmin-awstats</packagereq>
-      <packagereq type="default">webalizer</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
@@ -387,7 +384,6 @@
       <packagereq type="optional">ruby</packagereq>
       <packagereq type="optional">ruby-devel</packagereq>
       <packagereq type="optional">rubygems</packagereq>
-      <packagereq type="optional">webalizer</packagereq>
     </packagelist>
   </group>
 </comps>
