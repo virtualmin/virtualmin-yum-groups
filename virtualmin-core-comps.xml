@@ -6,7 +6,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <display_order>1024</display_order>
-    <name>Virtualmin Core</name>
+    <name>Virtualmin core</name>
     <description>Virtualmin core dependencies, including Webmin and Virtualmin and several popular plugins</description>
     <packagelist>
       <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
@@ -19,8 +19,6 @@
       <packagereq type="default">wbm-jailkit</packagereq>
       <packagereq type="default">wbm-php-pear</packagereq>
       <packagereq type="default">wbm-ruby-gems</packagereq>
-      <packagereq type="default">wbm-virtualmin-awstats</packagereq>
-      <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
     </packagelist>
   </group>
 </comps>
