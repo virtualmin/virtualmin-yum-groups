@@ -6,7 +6,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <display_order>1024</display_order>
-    <name>Virtualmin core</name>
+    <name>Virtualmin Core</name>
     <description>Virtualmin core dependencies, including Webmin and Virtualmin and several popular plugins</description>
     <packagelist>
       <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
