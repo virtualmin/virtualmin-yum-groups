@@ -6,7 +6,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <display_order>1024</display_order>
-    <name>Virtualmin LAMP stack</name>
+    <name>Virtualmin LAMP Stack</name>
     <description>Virtualmin with Apache, MariaDB, and PHP, Perl, Python, Ruby</description>
     <packagelist>
       <packagereq type="mandatory">bind-utils</packagereq>
@@ -103,7 +103,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <display_order>1024</display_order>
-    <name>Virtualmin LAMP stack minimal</name>
+    <name>Virtualmin LAMP Stack Minimal</name>
     <description>Virtualmin with Apache, MariaDB, and PHP, Perl, Python, Ruby for low-memory systems</description>
     <packagelist>
       <packagereq type="mandatory">ca-certificates</packagereq>
@@ -195,7 +195,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <display_order>1024</display_order>
-    <name>Virtualmin LEMP stack</name>
+    <name>Virtualmin LEMP Stack</name>
     <description>Virtualmin with Nginx, MariaDB, and PHP, Perl, Python, Ruby</description>
     <packagelist>
       <packagereq type="mandatory">bind-utils</packagereq>
@@ -292,7 +292,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <display_order>1024</display_order>
-    <name>Virtualmin LEMP stack minimal</name>
+    <name>Virtualmin LEMP Stack Minimal</name>
     <description>Virtualmin with Nginx, MariaDB, and PHP, Perl, Python, Ruby for low-memory systems</description>
     <packagelist>
       <packagereq type="mandatory">ca-certificates</packagereq>
