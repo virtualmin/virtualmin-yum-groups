@@ -69,7 +69,6 @@
       <packagereq type="default">perl-open</packagereq>
       <packagereq type="default">perl-Pod-Perldoc</packagereq>
       <packagereq type="default">php-json</packagereq>
-      <packagereq type="default">php-mysql</packagereq>
       <packagereq type="default">php-mysqlnd</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
@@ -157,7 +156,6 @@
       <packagereq type="default">perl-open</packagereq>
       <packagereq type="default">perl-Pod-Perldoc</packagereq>
       <packagereq type="default">php-json</packagereq>
-      <packagereq type="default">php-mysql</packagereq>
       <packagereq type="default">php-mysqlnd</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
@@ -216,7 +214,6 @@
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
       <packagereq type="mandatory">php-mbstring</packagereq>
-      <packagereq type="mandatory">php-mysql</packagereq>
       <packagereq type="mandatory">php-pear</packagereq>
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
@@ -256,7 +253,6 @@
       <packagereq type="default">perl-open</packagereq>
       <packagereq type="default">perl-Pod-Perldoc</packagereq>
       <packagereq type="default">php-json</packagereq>
-      <packagereq type="default">php-mysql</packagereq>
       <packagereq type="default">php-mysqlnd</packagereq>
       <packagereq type="default">php-odbc</packagereq>
       <packagereq type="default">php-opcache</packagereq>
@@ -311,7 +307,6 @@
       <packagereq type="mandatory">php-gd</packagereq>
       <packagereq type="mandatory">php-imap</packagereq>
       <packagereq type="mandatory">php-mbstring</packagereq>
-      <packagereq type="mandatory">php-mysql</packagereq>
       <packagereq type="mandatory">php-pear</packagereq>
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
@@ -345,7 +340,6 @@
       <packagereq type="default">perl-open</packagereq>
       <packagereq type="default">perl-Pod-Perldoc</packagereq>
       <packagereq type="default">php-json</packagereq>
-      <packagereq type="default">php-mysql</packagereq>
       <packagereq type="default">php-mysqlnd</packagereq>
       <packagereq type="default">php-opcache</packagereq>
       <packagereq type="default">php-xml</packagereq>
