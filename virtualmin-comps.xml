@@ -65,6 +65,7 @@
       <packagereq type="default">perl-Authen-OATH</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">perl-File-Path</packagereq>
+      <packagereq type="default">perl-File-Basename</packagereq>
       <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="default">perl-lib</packagereq>
       <packagereq type="default">perl-open</packagereq>
@@ -153,6 +154,7 @@
       <packagereq type="default">perl-Authen-OATH</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">perl-File-Path</packagereq>
+      <packagereq type="default">perl-File-Basename</packagereq>
       <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="default">perl-lib</packagereq>
       <packagereq type="default">perl-open</packagereq>
@@ -251,6 +253,7 @@
       <packagereq type="default">perl-Authen-OATH</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">perl-File-Path</packagereq>
+      <packagereq type="default">perl-File-Basename</packagereq>
       <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="default">perl-lib</packagereq>
       <packagereq type="default">perl-open</packagereq>
@@ -339,6 +342,7 @@
       <packagereq type="default">perl-Authen-OATH</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">perl-File-Path</packagereq>
+      <packagereq type="default">perl-File-Basename</packagereq>
       <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="default">perl-lib</packagereq>
       <packagereq type="default">perl-open</packagereq>
