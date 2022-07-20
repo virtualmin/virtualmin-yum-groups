@@ -55,7 +55,6 @@
       <packagereq type="default">firewalld</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
-      <packagereq type="default">mariadb-devel</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">mariadb</packagereq>
       <packagereq type="default">milter-greylist</packagereq>
@@ -145,7 +144,6 @@
       <packagereq type="default">firewalld</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
-      <packagereq type="default">mariadb-devel</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">mariadb</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
@@ -244,7 +242,6 @@
       <packagereq type="default">fcgiwrap</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
-      <packagereq type="default">mariadb-devel</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">mariadb</packagereq>
       <packagereq type="default">milter-greylist</packagereq>
@@ -334,7 +331,6 @@
       <packagereq type="default">firewalld</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
-      <packagereq type="default">mariadb-devel</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">mariadb</packagereq>
       <packagereq type="default">opendkim</packagereq>
