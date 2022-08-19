@@ -9,8 +9,8 @@
     <name>Virtualmin LAMP Stack</name>
     <description>Virtualmin with Apache, MariaDB, and PHP, Perl, Python, Ruby</description>
     <packagelist>
-      <packagereq type="mandatory">bind-utils</packagereq>
       <packagereq type="mandatory">bind</packagereq>
+      <packagereq type="mandatory">bind-utils</packagereq>
       <packagereq type="mandatory">ca-certificates</packagereq>
       <packagereq type="mandatory">httpd</packagereq>
       <packagereq type="mandatory">iptables</packagereq>
@@ -40,13 +40,13 @@
       <packagereq type="default">awstats</packagereq>
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">certbot</packagereq>
-      <packagereq type="default">clamav-update</packagereq>
       <packagereq type="default">clamav</packagereq>
+      <packagereq type="default">clamav-update</packagereq>
       <packagereq type="default">clamd</packagereq>
       <packagereq type="default">cronie</packagereq>
+      <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">cyrus-sasl-plain</packagereq>
-      <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">dovecot</packagereq>
       <packagereq type="default">etckeeper</packagereq>
       <packagereq type="default">fail2ban-firewalld</packagereq>
@@ -55,8 +55,8 @@
       <packagereq type="default">firewalld</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
-      <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">mariadb</packagereq>
+      <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">milter-greylist</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
       <packagereq type="default">opendkim</packagereq>
@@ -64,8 +64,8 @@
       <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">perl-Authen-OATH</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
-      <packagereq type="default">perl-File-Path</packagereq>
       <packagereq type="default">perl-File-Basename</packagereq>
+      <packagereq type="default">perl-File-Path</packagereq>
       <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="default">perl-lib</packagereq>
       <packagereq type="default">perl-open</packagereq>
@@ -77,8 +77,8 @@
       <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postfix</packagereq>
       <packagereq type="default">postgrey</packagereq>
-      <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">procmail</packagereq>
+      <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">rsync</packagereq>
       <packagereq type="default">ruby</packagereq>
@@ -92,8 +92,8 @@
       <packagereq type="optional">php-odbc</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
       <packagereq type="optional">php-snmp</packagereq>
-      <packagereq type="optional">postgresql-server</packagereq>
       <packagereq type="optional">postgresql</packagereq>
+      <packagereq type="optional">postgresql-server</packagereq>
     </packagelist>
   </group>
   <group>
@@ -129,30 +129,30 @@
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="mandatory">zip</packagereq>
-      <packagereq type="default">bind-utils</packagereq>
       <packagereq type="default">bind</packagereq>
+      <packagereq type="default">bind-utils</packagereq>
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">certbot</packagereq>
       <packagereq type="default">cronie</packagereq>
+      <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">cyrus-sasl-plain</packagereq>
-      <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">dovecot</packagereq>
       <packagereq type="default">etckeeper</packagereq>
       <packagereq type="default">fcgiwrap</packagereq>
       <packagereq type="default">firewalld</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
-      <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">mariadb</packagereq>
+      <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
       <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">lm_sensors</packagereq>
       <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">perl-Authen-OATH</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
-      <packagereq type="default">perl-File-Path</packagereq>
       <packagereq type="default">perl-File-Basename</packagereq>
+      <packagereq type="default">perl-File-Path</packagereq>
       <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="default">perl-lib</packagereq>
       <packagereq type="default">perl-open</packagereq>
@@ -164,8 +164,8 @@
       <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postfix</packagereq>
       <packagereq type="default">postgrey</packagereq>
-      <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">procmail</packagereq>
+      <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">rsync</packagereq>
       <packagereq type="default">spamassassin</packagereq>
@@ -179,8 +179,8 @@
       <packagereq type="optional">php-odbc</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
       <packagereq type="optional">php-snmp</packagereq>
-      <packagereq type="optional">postgresql-server</packagereq>
       <packagereq type="optional">postgresql</packagereq>
+      <packagereq type="optional">postgresql-server</packagereq>
       <packagereq type="optional">ruby</packagereq>
       <packagereq type="optional">rubygems</packagereq>
       <packagereq type="optional">wbm-virtualmin-awstats</packagereq>
@@ -194,8 +194,8 @@
     <name>Virtualmin LEMP Stack</name>
     <description>Virtualmin with Nginx, MariaDB, and PHP, Perl, Python, Ruby</description>
     <packagelist>
-      <packagereq type="mandatory">bind-utils</packagereq>
       <packagereq type="mandatory">bind</packagereq>
+      <packagereq type="mandatory">bind-utils</packagereq>
       <packagereq type="mandatory">iptables</packagereq>
       <packagereq type="mandatory">nginx</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
@@ -218,21 +218,21 @@
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
-      <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx</packagereq>
+      <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
       <packagereq type="mandatory">zip</packagereq>
       <packagereq type="default">awscli</packagereq>
       <packagereq type="default">awstats</packagereq>
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">certbot</packagereq>
-      <packagereq type="default">clamav-update</packagereq>
       <packagereq type="default">clamav</packagereq>
+      <packagereq type="default">clamav-update</packagereq>
       <packagereq type="default">clamd</packagereq>
       <packagereq type="default">cronie</packagereq>
+      <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">cyrus-sasl-plain</packagereq>
-      <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">dovecot</packagereq>
       <packagereq type="default">etckeeper</packagereq>
       <packagereq type="default">fail2ban-firewalld</packagereq>
@@ -240,16 +240,16 @@
       <packagereq type="default">fcgiwrap</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
-      <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">mariadb</packagereq>
+      <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">milter-greylist</packagereq>
       <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">lm_sensors</packagereq>
       <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">perl-Authen-OATH</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
-      <packagereq type="default">perl-File-Path</packagereq>
       <packagereq type="default">perl-File-Basename</packagereq>
+      <packagereq type="default">perl-File-Path</packagereq>
       <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="default">perl-lib</packagereq>
       <packagereq type="default">perl-open</packagereq>
@@ -262,8 +262,8 @@
       <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postfix</packagereq>
       <packagereq type="default">postgrey</packagereq>
-      <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">procmail</packagereq>
+      <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">rsync</packagereq>
       <packagereq type="default">ruby</packagereq>
@@ -276,8 +276,8 @@
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
       <packagereq type="optional">php-snmp</packagereq>
-      <packagereq type="optional">postgresql-server</packagereq>
       <packagereq type="optional">postgresql</packagereq>
+      <packagereq type="optional">postgresql-server</packagereq>
     </packagelist>
   </group>
   <group>
@@ -311,32 +311,32 @@
       <packagereq type="mandatory">python</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
-      <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx</packagereq>
+      <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
       <packagereq type="mandatory">zip</packagereq>
-      <packagereq type="default">bind-utils</packagereq>
       <packagereq type="default">bind</packagereq>
+      <packagereq type="default">bind-utils</packagereq>
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">certbot</packagereq>
       <packagereq type="default">cronie</packagereq>
+      <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">cyrus-sasl-plain</packagereq>
-      <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">dovecot</packagereq>
       <packagereq type="default">etckeeper</packagereq>
       <packagereq type="default">fcgiwrap</packagereq>
       <packagereq type="default">firewalld</packagereq>
       <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">logrotate</packagereq>
-      <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">mariadb</packagereq>
+      <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">lm_sensors</packagereq>
       <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">perl-Authen-OATH</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
-      <packagereq type="default">perl-File-Path</packagereq>
       <packagereq type="default">perl-File-Basename</packagereq>
+      <packagereq type="default">perl-File-Path</packagereq>
       <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="default">perl-lib</packagereq>
       <packagereq type="default">perl-open</packagereq>
@@ -348,8 +348,8 @@
       <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postfix</packagereq>
       <packagereq type="default">postgrey</packagereq>
-      <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">procmail</packagereq>
+      <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">rsync</packagereq>
       <packagereq type="default">spamassassin</packagereq>
@@ -363,8 +363,8 @@
       <packagereq type="optional">php-odbc</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
       <packagereq type="optional">php-snmp</packagereq>
-      <packagereq type="optional">postgresql-server</packagereq>
       <packagereq type="optional">postgresql</packagereq>
+      <packagereq type="optional">postgresql-server</packagereq>
       <packagereq type="optional">ruby</packagereq>
       <packagereq type="optional">rubygems</packagereq>
       <packagereq type="optional">wbm-virtualmin-awstats</packagereq>
