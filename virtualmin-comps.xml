@@ -83,6 +83,7 @@
       <packagereq type="default">rsync</packagereq>
       <packagereq type="default">ruby</packagereq>
       <packagereq type="default">rubygems</packagereq>
+      <packagereq type="default">shared-mime-info</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">tar</packagereq>
       <packagereq type="default">wbm-virtualmin-awstats</packagereq>
@@ -168,6 +169,7 @@
       <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">rsync</packagereq>
+      <packagereq type="default">shared-mime-info</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">tar</packagereq>
       <packagereq type="default">xz</packagereq>
@@ -268,6 +270,7 @@
       <packagereq type="default">rsync</packagereq>
       <packagereq type="default">ruby</packagereq>
       <packagereq type="default">rubygems</packagereq>
+      <packagereq type="default">shared-mime-info</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">tar</packagereq>
       <packagereq type="default">wbm-virtualmin-awstats</packagereq>
@@ -352,6 +355,7 @@
       <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">rsync</packagereq>
+      <packagereq type="default">shared-mime-info</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">tar</packagereq>
       <packagereq type="default">xz</packagereq>
