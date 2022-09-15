@@ -87,6 +87,7 @@
       <packagereq type="default">shared-mime-info</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">tar</packagereq>
+      <packagereq type="default">whois</packagereq>
       <packagereq type="default">wbm-virtualmin-awstats</packagereq>
       <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
       <packagereq type="default">xz</packagereq>
@@ -174,6 +175,7 @@
       <packagereq type="default">shared-mime-info</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">tar</packagereq>
+      <packagereq type="default">whois</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="optional">awstats</packagereq>
       <packagereq type="optional">fail2ban-firewalld</packagereq>
@@ -276,6 +278,7 @@
       <packagereq type="default">shared-mime-info</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">tar</packagereq>
+      <packagereq type="default">whois</packagereq>
       <packagereq type="default">wbm-virtualmin-awstats</packagereq>
       <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
       <packagereq type="default">xz</packagereq>
@@ -362,6 +365,7 @@
       <packagereq type="default">shared-mime-info</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="default">tar</packagereq>
+      <packagereq type="default">whois</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="optional">awstats</packagereq>
       <packagereq type="optional">fail2ban-firewalld</packagereq>
