@@ -77,6 +77,7 @@
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postfix</packagereq>
+      <packagereq type="default">parted</packagereq>
       <packagereq type="default">postgrey</packagereq>
       <packagereq type="default">procmail</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
@@ -167,6 +168,7 @@
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postfix</packagereq>
+      <packagereq type="default">parted</packagereq>
       <packagereq type="default">postgrey</packagereq>
       <packagereq type="default">procmail</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
@@ -268,6 +270,7 @@
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postfix</packagereq>
+      <packagereq type="default">parted</packagereq>
       <packagereq type="default">postgrey</packagereq>
       <packagereq type="default">procmail</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
@@ -357,6 +360,7 @@
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postfix</packagereq>
+      <packagereq type="default">parted</packagereq>
       <packagereq type="default">postgrey</packagereq>
       <packagereq type="default">procmail</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
