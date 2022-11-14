@@ -65,6 +65,8 @@
       <packagereq type="default">perl-lib</packagereq>
       <packagereq type="default">perl-open</packagereq>
       <packagereq type="default">perl-Pod-Perldoc</packagereq>
+      <packagereq type="default">perl-Moo</packagereq>
+      <packagereq type="default">perl-Type-Tiny</packagereq>
       <packagereq type="default">php-cli</packagereq>
       <packagereq type="default">php-fpm</packagereq>
       <packagereq type="default">php-gd</packagereq>
@@ -156,6 +158,8 @@
       <packagereq type="default">perl-lib</packagereq>
       <packagereq type="default">perl-open</packagereq>
       <packagereq type="default">perl-Pod-Perldoc</packagereq>
+      <packagereq type="default">perl-Moo</packagereq>
+      <packagereq type="default">perl-Type-Tiny</packagereq>
       <packagereq type="default">php-cli</packagereq>
       <packagereq type="default">php-fpm</packagereq>
       <packagereq type="default">php-gd</packagereq>
@@ -257,6 +261,8 @@
       <packagereq type="default">perl-lib</packagereq>
       <packagereq type="default">perl-open</packagereq>
       <packagereq type="default">perl-Pod-Perldoc</packagereq>
+      <packagereq type="default">perl-Moo</packagereq>
+      <packagereq type="default">perl-Type-Tiny</packagereq>
       <packagereq type="default">php-cli</packagereq>
       <packagereq type="default">php-fpm</packagereq>
       <packagereq type="default">php-gd</packagereq>
@@ -348,6 +354,8 @@
       <packagereq type="default">perl-lib</packagereq>
       <packagereq type="default">perl-open</packagereq>
       <packagereq type="default">perl-Pod-Perldoc</packagereq>
+      <packagereq type="default">perl-Moo</packagereq>
+      <packagereq type="default">perl-Type-Tiny</packagereq>
       <packagereq type="default">php-cli</packagereq>
       <packagereq type="default">php-fpm</packagereq>
       <packagereq type="default">php-gd</packagereq>
