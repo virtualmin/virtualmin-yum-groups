@@ -57,7 +57,6 @@
       <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">lm_sensors</packagereq>
       <packagereq type="default">p7zip</packagereq>
-      <packagereq type="default">perl-Authen-OATH</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">perl-File-Basename</packagereq>
       <packagereq type="default">perl-File-Path</packagereq>
@@ -65,8 +64,6 @@
       <packagereq type="default">perl-lib</packagereq>
       <packagereq type="default">perl-open</packagereq>
       <packagereq type="default">perl-Pod-Perldoc</packagereq>
-      <packagereq type="default">perl-Moo</packagereq>
-      <packagereq type="default">perl-Type-Tiny</packagereq>
       <packagereq type="default">php-cli</packagereq>
       <packagereq type="default">php-fpm</packagereq>
       <packagereq type="default">php-gd</packagereq>
