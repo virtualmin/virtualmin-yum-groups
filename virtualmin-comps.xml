@@ -91,6 +91,7 @@
       <packagereq type="default">wbm-virtualmin-awstats</packagereq>
       <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
       <packagereq type="default">xz</packagereq>
+      <packagereq type="default">zstd</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-odbc</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
@@ -177,6 +178,7 @@
       <packagereq type="default">tar</packagereq>
       <packagereq type="default">whois</packagereq>
       <packagereq type="default">xz</packagereq>
+      <packagereq type="default">zstd</packagereq>
       <packagereq type="optional">awstats</packagereq>
       <packagereq type="optional">fail2ban-firewalld</packagereq>
       <packagereq type="optional">fail2ban-server</packagereq>
@@ -282,6 +284,7 @@
       <packagereq type="default">wbm-virtualmin-awstats</packagereq>
       <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
       <packagereq type="default">xz</packagereq>
+      <packagereq type="default">zstd</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
       <packagereq type="optional">php-snmp</packagereq>
@@ -367,6 +370,7 @@
       <packagereq type="default">tar</packagereq>
       <packagereq type="default">whois</packagereq>
       <packagereq type="default">xz</packagereq>
+      <packagereq type="default">zstd</packagereq>
       <packagereq type="optional">awstats</packagereq>
       <packagereq type="optional">fail2ban-firewalld</packagereq>
       <packagereq type="optional">fail2ban-server</packagereq>
