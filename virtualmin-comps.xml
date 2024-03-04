@@ -192,6 +192,7 @@
       <packagereq type="optional">ruby</packagereq>
       <packagereq type="optional">rubygems</packagereq>
       <packagereq type="optional">wbm-virtualmin-awstats</packagereq>
+      <packagereq type="optional">wbm-virtualmin-htpasswd</packagereq>
     </packagelist>
   </group>
   <group>
@@ -384,6 +385,7 @@
       <packagereq type="optional">ruby</packagereq>
       <packagereq type="optional">rubygems</packagereq>
       <packagereq type="optional">wbm-virtualmin-awstats</packagereq>
+      <packagereq type="optional">wbm-virtualmin-htpasswd</packagereq>
     </packagelist>
   </group>
 </comps>
