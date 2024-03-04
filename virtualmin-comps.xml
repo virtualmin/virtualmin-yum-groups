@@ -126,6 +126,7 @@
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="mandatory">zip</packagereq>
+      <packagereq type="default">awstats</packagereq>
       <packagereq type="default">bind</packagereq>
       <packagereq type="default">bind-utils</packagereq>
       <packagereq type="default">bzip2</packagereq>
@@ -179,7 +180,8 @@
       <packagereq type="default">whois</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="default">zstd</packagereq>
-      <packagereq type="optional">awstats</packagereq>
+      <packagereq type="default">wbm-virtualmin-awstats</packagereq>
+      <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
       <packagereq type="optional">fail2ban-firewalld</packagereq>
       <packagereq type="optional">fail2ban-server</packagereq>
       <packagereq type="optional">milter-greylist</packagereq>
@@ -191,8 +193,6 @@
       <packagereq type="optional">postgresql-server</packagereq>
       <packagereq type="optional">ruby</packagereq>
       <packagereq type="optional">rubygems</packagereq>
-      <packagereq type="optional">wbm-virtualmin-awstats</packagereq>
-      <packagereq type="optional">wbm-virtualmin-htpasswd</packagereq>
     </packagelist>
   </group>
   <group>
@@ -320,6 +320,7 @@
       <packagereq type="mandatory">wbm-virtualmin-nginx</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
       <packagereq type="mandatory">zip</packagereq>
+      <packagereq type="default">awstats</packagereq>
       <packagereq type="default">bind</packagereq>
       <packagereq type="default">bind-utils</packagereq>
       <packagereq type="default">bzip2</packagereq>
@@ -372,7 +373,8 @@
       <packagereq type="default">whois</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="default">zstd</packagereq>
-      <packagereq type="optional">awstats</packagereq>
+      <packagereq type="default">wbm-virtualmin-awstats</packagereq>
+      <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
       <packagereq type="optional">fail2ban-firewalld</packagereq>
       <packagereq type="optional">fail2ban-server</packagereq>
       <packagereq type="optional">milter-greylist</packagereq>
@@ -384,8 +386,6 @@
       <packagereq type="optional">postgresql-server</packagereq>
       <packagereq type="optional">ruby</packagereq>
       <packagereq type="optional">rubygems</packagereq>
-      <packagereq type="optional">wbm-virtualmin-awstats</packagereq>
-      <packagereq type="optional">wbm-virtualmin-htpasswd</packagereq>
     </packagelist>
   </group>
 </comps>
