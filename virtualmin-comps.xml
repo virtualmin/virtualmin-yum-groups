@@ -228,7 +228,6 @@
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">ca-certificates</packagereq>
       <packagereq type="default">certbot</packagereq>
-      <packagereq type="default">mod_http2</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">clamav-update</packagereq>
       <packagereq type="default">clamd</packagereq>
@@ -325,7 +324,6 @@
       <packagereq type="default">bind-utils</packagereq>
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">certbot</packagereq>
-      <packagereq type="default">mod_http2</packagereq>
       <packagereq type="default">cronie</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
