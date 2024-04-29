@@ -145,7 +145,6 @@
       <packagereq type="default">mariadb</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
-      <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">lm_sensors</packagereq>
       <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
@@ -185,6 +184,7 @@
       <packagereq type="optional">fail2ban-firewalld</packagereq>
       <packagereq type="optional">fail2ban-server</packagereq>
       <packagereq type="optional">milter-greylist</packagereq>
+      <packagereq type="optional">opendkim</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-odbc</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
@@ -336,7 +336,6 @@
       <packagereq type="default">logrotate</packagereq>
       <packagereq type="default">mariadb</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
-      <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">lm_sensors</packagereq>
       <packagereq type="default">p7zip</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
@@ -376,6 +375,7 @@
       <packagereq type="optional">fail2ban-firewalld</packagereq>
       <packagereq type="optional">fail2ban-server</packagereq>
       <packagereq type="optional">milter-greylist</packagereq>
+      <packagereq type="optional">opendkim</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-odbc</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
