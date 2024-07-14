@@ -170,7 +170,6 @@
       <packagereq type="default">postgrey</packagereq>
       <packagereq type="default">procmail</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
-      <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">python</packagereq>
       <packagereq type="default">rsync</packagereq>
       <packagereq type="default">shared-mime-info</packagereq>
@@ -191,6 +190,7 @@
       <packagereq type="optional">php-snmp</packagereq>
       <packagereq type="optional">postgresql</packagereq>
       <packagereq type="optional">postgresql-server</packagereq>
+      <packagereq type="optional">proftpd</packagereq>
       <packagereq type="optional">ruby</packagereq>
       <packagereq type="optional">rubygems</packagereq>
     </packagelist>
@@ -361,7 +361,6 @@
       <packagereq type="default">postgrey</packagereq>
       <packagereq type="default">procmail</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
-      <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">python</packagereq>
       <packagereq type="default">rsync</packagereq>
       <packagereq type="default">shared-mime-info</packagereq>
@@ -382,6 +381,7 @@
       <packagereq type="optional">php-snmp</packagereq>
       <packagereq type="optional">postgresql</packagereq>
       <packagereq type="optional">postgresql-server</packagereq>
+      <packagereq type="optional">proftpd</packagereq>
       <packagereq type="optional">ruby</packagereq>
       <packagereq type="optional">rubygems</packagereq>
     </packagelist>
