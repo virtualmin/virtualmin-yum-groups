@@ -318,7 +318,6 @@
       <packagereq type="mandatory">zip</packagereq>
       <packagereq type="default">awstats</packagereq>
       <packagereq type="default">bind-utils</packagereq>
-      <packagereq type="default">bind</packagereq>
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">certbot</packagereq>
       <packagereq type="default">cronie</packagereq>
@@ -361,7 +360,6 @@
       <packagereq type="default">whois</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="default">zstd</packagereq>
-      <packagereq type="optional">bind-utils</packagereq>
       <packagereq type="optional">bind</packagereq>
       <packagereq type="optional">cyrus-sasl-gssapi</packagereq>
       <packagereq type="optional">cyrus-sasl-plain</packagereq>
@@ -700,6 +698,7 @@
       <packagereq type="mandatory">wbm-virtualmin-nginx</packagereq>
       <packagereq type="mandatory">zip</packagereq>
       <packagereq type="default">awstats</packagereq>
+      <packagereq type="default">bind-utils</packagereq>
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">certbot</packagereq>
       <packagereq type="default">cronie</packagereq>
@@ -740,7 +739,6 @@
       <packagereq type="default">whois</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="default">zstd</packagereq>
-      <packagereq type="optional">bind-utils</packagereq>
       <packagereq type="optional">bind</packagereq>
       <packagereq type="optional">cyrus-sasl-gssapi</packagereq>
       <packagereq type="optional">cyrus-sasl-plain</packagereq>
