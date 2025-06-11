@@ -67,7 +67,6 @@
       <packagereq type="default">shared-mime-info</packagereq>
       <packagereq type="default">tar</packagereq>
       <packagereq type="default">unzip</packagereq>
-      <packagereq type="default">usermin</packagereq>
       <packagereq type="default">wbm-jailkit</packagereq>
       <packagereq type="default">wbm-virtualmin-awstats</packagereq>
       <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
