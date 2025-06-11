@@ -21,7 +21,6 @@
       <packagereq type="default">cyrus-sasl-plain</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">dovecot</packagereq>
-      <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">milter-greylist</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
       <packagereq type="default">mod_http2</packagereq>
@@ -33,7 +32,6 @@
       <packagereq type="default">procmail</packagereq>
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">spamassassin</packagereq>
-      <packagereq type="default">wbm-jailkit</packagereq>
     </packagelist>
   </group>
   <group>
@@ -59,7 +57,6 @@
       <packagereq type="optional">cyrus-sasl-plain</packagereq>
       <packagereq type="optional">cyrus-sasl</packagereq>
       <packagereq type="optional">dovecot</packagereq>
-      <packagereq type="optional">jailkit</packagereq>
       <packagereq type="optional">milter-greylist</packagereq>
       <packagereq type="optional">opendkim</packagereq>
       <packagereq type="optional">php-imap</packagereq>
@@ -69,7 +66,6 @@
       <packagereq type="optional">procmail</packagereq>
       <packagereq type="optional">proftpd</packagereq>
       <packagereq type="optional">spamassassin</packagereq>
-      <packagereq type="optional">wbm-jailkit</packagereq>
     </packagelist>
   </group>
   <group>
@@ -93,7 +89,6 @@
       <packagereq type="default">cyrus-sasl-plain</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">dovecot</packagereq>
-      <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">milter-greylist</packagereq>
       <packagereq type="default">opendkim</packagereq>
       <packagereq type="default">php-imap</packagereq>
@@ -103,7 +98,6 @@
       <packagereq type="default">procmail</packagereq>
       <packagereq type="default">proftpd</packagereq>
       <packagereq type="default">spamassassin</packagereq>
-      <packagereq type="default">wbm-jailkit</packagereq>
     </packagelist>
   </group>
   <group>
@@ -127,7 +121,6 @@
       <packagereq type="optional">cyrus-sasl-plain</packagereq>
       <packagereq type="optional">cyrus-sasl</packagereq>
       <packagereq type="optional">dovecot</packagereq>
-      <packagereq type="optional">jailkit</packagereq>
       <packagereq type="optional">milter-greylist</packagereq>
       <packagereq type="optional">opendkim</packagereq>
       <packagereq type="optional">php-imap</packagereq>
@@ -137,7 +130,6 @@
       <packagereq type="optional">procmail</packagereq>
       <packagereq type="optional">proftpd</packagereq>
       <packagereq type="optional">spamassassin</packagereq>
-      <packagereq type="optional">wbm-jailkit</packagereq>
     </packagelist>
   </group>
 </comps>

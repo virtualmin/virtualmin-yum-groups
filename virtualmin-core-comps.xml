@@ -38,6 +38,7 @@
       <packagereq type="default">fail2ban-server</packagereq>
       <packagereq type="default">fcgiwrap</packagereq>
       <packagereq type="default">firewalld</packagereq>
+      <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">lm_sensors</packagereq>
       <packagereq type="default">logrotate</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
@@ -67,6 +68,7 @@
       <packagereq type="default">tar</packagereq>
       <packagereq type="default">unzip</packagereq>
       <packagereq type="default">usermin</packagereq>
+      <packagereq type="default">wbm-jailkit</packagereq>
       <packagereq type="default">wbm-virtualmin-awstats</packagereq>
       <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
       <packagereq type="default">whois</packagereq>
