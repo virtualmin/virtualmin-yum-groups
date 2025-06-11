@@ -59,7 +59,6 @@
       <packagereq type="default">php-mbstring</packagereq>
       <packagereq type="default">php-mysqlnd</packagereq>
       <packagereq type="default">php-opcache</packagereq>
-      <packagereq type="default">php-pear</packagereq>
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">python</packagereq>
@@ -77,6 +76,7 @@
       <!-- Optional packages -->
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-odbc</packagereq>
+      <packagereq type="optional">php-pear</packagereq>
       <packagereq type="optional">php-pgsql</packagereq>
       <packagereq type="optional">php-snmp</packagereq>
       <packagereq type="optional">postgresql-server</packagereq>
