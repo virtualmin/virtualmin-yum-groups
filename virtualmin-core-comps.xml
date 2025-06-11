@@ -17,8 +17,6 @@
       <packagereq type="mandatory">webmin</packagereq>
       <packagereq type="default">usermin</packagereq>
       <packagereq type="default">wbm-jailkit</packagereq>
-      <packagereq type="default">wbm-php-pear</packagereq>
-      <packagereq type="default">wbm-ruby-gems</packagereq>
     </packagelist>
   </group>
 </comps>
