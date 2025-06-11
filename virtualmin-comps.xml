@@ -42,15 +42,16 @@
     <uservisible>true</uservisible>
     <display_order>1024</display_order>
     <name>Virtualmin LAMP Stack Minimal</name>
-    <description>Virtualmin with Apache, MariaDB, PHP, Perl, and Python, excluding the mail, FTP and DNS components</description>
+    <description>Virtualmin with Apache, MariaDB, PHP, Perl and Python, excluding the mail, FTP and DNS components</description>
     <packagelist>
       <!-- Mandatory LAMP Minimal packages -->
       <packagereq type="mandatory">httpd</packagereq>
       <packagereq type="mandatory">mod_ssl</packagereq>
       <!-- Default LAMP Minimal packages -->
-      <packagereq type="default">bind</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
       <packagereq type="default">mod_http2</packagereq>
+      <!-- Optional LAMP Minimal packages -->
+      <packagereq type="optional">bind</packagereq>
       <packagereq type="optional">clamav-update</packagereq>
       <packagereq type="optional">clamav</packagereq>
       <packagereq type="optional">clamd</packagereq>
@@ -77,7 +78,7 @@
     <uservisible>true</uservisible>
     <display_order>1024</display_order>
     <name>Virtualmin LEMP Stack</name>
-    <description>Virtualmin with BIND, Nginx, MariaDB, PHP, Perl, Python, Ruby, and a full mail stack</description>
+    <description>Virtualmin with BIND, Nginx, MariaDB, PHP, Perl, Python, and a full mail stack</description>
     <packagelist>
       <!-- Mandatory LEMP packages -->
       <packagereq type="mandatory">nginx</packagereq>
@@ -117,8 +118,8 @@
       <packagereq type="mandatory">nginx</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx</packagereq>
-      <!-- Default LEMP Minimal packages -->
-      <packagereq type="default">bind</packagereq>
+      <!-- Optional LEMP Minimal packages -->
+      <packagereq type="optional">bind</packagereq>
       <packagereq type="optional">clamav-update</packagereq>
       <packagereq type="optional">clamav</packagereq>
       <packagereq type="optional">clamd</packagereq>
