@@ -9,86 +9,31 @@
     <name>Virtualmin LAMP Stack</name>
     <description>Virtualmin with BIND, Apache, MariaDB, PHP, Perl, Python, and a full mail stack</description>
     <packagelist>
-      <packagereq type="mandatory">bind-utils</packagereq>
+      <!-- Mandatory LAMP packages -->
       <packagereq type="mandatory">httpd</packagereq>
       <packagereq type="mandatory">mod_ssl</packagereq>
-      <packagereq type="mandatory">openssl</packagereq>
-      <packagereq type="default">awscli</packagereq>
-      <packagereq type="default">awstats</packagereq>
+      <!-- Default LAMP packages -->
       <packagereq type="default">bind</packagereq>
-      <packagereq type="default">bzip2</packagereq>
-      <packagereq type="default">ca-certificates</packagereq>
-      <packagereq type="default">certbot</packagereq>
       <packagereq type="default">clamav-update</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">clamd</packagereq>
-      <packagereq type="default">cronie</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">cyrus-sasl-plain</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">dovecot</packagereq>
-      <packagereq type="default">etckeeper</packagereq>
-      <packagereq type="default">fail2ban-firewalld</packagereq>
-      <packagereq type="default">fail2ban-server</packagereq>
-      <packagereq type="default">fcgiwrap</packagereq>
-      <packagereq type="default">firewalld</packagereq>
       <packagereq type="default">jailkit</packagereq>
-      <packagereq type="default">lm_sensors</packagereq>
-      <packagereq type="default">logrotate</packagereq>
-      <packagereq type="default">mariadb-server</packagereq>
-      <packagereq type="default">mariadb</packagereq>
       <packagereq type="default">milter-greylist</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
       <packagereq type="default">mod_http2</packagereq>
       <packagereq type="default">opendkim</packagereq>
-      <packagereq type="default">p7zip</packagereq>
-      <packagereq type="default">parted</packagereq>
-      <packagereq type="default">perl-Config-IniFiles</packagereq>
-      <packagereq type="default">perl-File-Basename</packagereq>
-      <packagereq type="default">perl-File-Path</packagereq>
-      <packagereq type="default">perl-IO-Tty</packagereq>
-      <packagereq type="default">perl-Pod-Perldoc</packagereq>
-      <packagereq type="default">perl-lib</packagereq>
-      <packagereq type="default">perl-open</packagereq>
-      <packagereq type="default">php-cli</packagereq>
-      <packagereq type="default">php-fpm</packagereq>
-      <packagereq type="default">php-gd</packagereq>
       <packagereq type="default">php-imap</packagereq>
-      <packagereq type="default">php-json</packagereq>
-      <packagereq type="default">php-mbstring</packagereq>
-      <packagereq type="default">php-mysqlnd</packagereq>
-      <packagereq type="default">php-opcache</packagereq>
-      <packagereq type="default">php-pear</packagereq>
-      <packagereq type="default">php-xml</packagereq>
-      <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postfix</packagereq>
       <packagereq type="default">postgrey</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">procmail</packagereq>
       <packagereq type="default">proftpd</packagereq>
-      <packagereq type="default">python</packagereq>
-      <packagereq type="default">rsync</packagereq>
-      <packagereq type="default">shared-mime-info</packagereq>
       <packagereq type="default">spamassassin</packagereq>
-      <packagereq type="default">tar</packagereq>
       <packagereq type="default">wbm-jailkit</packagereq>
-      <packagereq type="default">wbm-virtualmin-awstats</packagereq>
-      <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
-      <packagereq type="default">whois</packagereq>
-      <packagereq type="default">xz</packagereq>
-      <packagereq type="default">zstd</packagereq>
-      <packagereq type="default">unzip</packagereq>
-      <packagereq type="default">zip</packagereq>
-      <packagereq type="optional">perl-DBD-Pg</packagereq>
-      <packagereq type="optional">php-odbc</packagereq>
-      <packagereq type="optional">php-pgsql</packagereq>
-      <packagereq type="optional">php-snmp</packagereq>
-      <packagereq type="optional">postgresql-server</packagereq>
-      <packagereq type="optional">postgresql</packagereq>
-      <packagereq type="optional">ruby</packagereq>
-      <packagereq type="optional">rubygems</packagereq>
-      <packagereq type="optional">wbm-php-pear</packagereq>
-      <packagereq type="optional">wbm-ruby-gems</packagereq>
     </packagelist>
   </group>
   <group>
@@ -99,58 +44,13 @@
     <name>Virtualmin LAMP Stack Minimal</name>
     <description>Virtualmin with Apache, MariaDB, PHP, Perl, and Python, excluding the mail, FTP and DNS components</description>
     <packagelist>
-      <packagereq type="mandatory">bind-utils</packagereq>
+      <!-- Mandatory LAMP Minimal packages -->
       <packagereq type="mandatory">httpd</packagereq>
       <packagereq type="mandatory">mod_ssl</packagereq>
-      <packagereq type="mandatory">openssl</packagereq>
-      <packagereq type="default">awscli</packagereq>
-      <packagereq type="default">awstats</packagereq>
+      <!-- Default LAMP Minimal packages -->
       <packagereq type="default">bind</packagereq>
-      <packagereq type="default">bzip2</packagereq>
-      <packagereq type="default">ca-certificates</packagereq>
-      <packagereq type="default">certbot</packagereq>
-      <packagereq type="default">cronie</packagereq>
-      <packagereq type="default">etckeeper</packagereq>
-      <packagereq type="default">fail2ban-firewalld</packagereq>
-      <packagereq type="default">fail2ban-server</packagereq>
-      <packagereq type="default">fcgiwrap</packagereq>
-      <packagereq type="default">firewalld</packagereq>
-      <packagereq type="default">lm_sensors</packagereq>
-      <packagereq type="default">logrotate</packagereq>
-      <packagereq type="default">mariadb-server</packagereq>
-      <packagereq type="default">mariadb</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
       <packagereq type="default">mod_http2</packagereq>
-      <packagereq type="default">p7zip</packagereq>
-      <packagereq type="default">parted</packagereq>
-      <packagereq type="default">perl-Config-IniFiles</packagereq>
-      <packagereq type="default">perl-File-Basename</packagereq>
-      <packagereq type="default">perl-File-Path</packagereq>
-      <packagereq type="default">perl-IO-Tty</packagereq>
-      <packagereq type="default">perl-lib</packagereq>
-      <packagereq type="default">perl-open</packagereq>
-      <packagereq type="default">perl-Pod-Perldoc</packagereq>
-      <packagereq type="default">php-cli</packagereq>
-      <packagereq type="default">php-fpm</packagereq>
-      <packagereq type="default">php-gd</packagereq>
-      <packagereq type="default">php-json</packagereq>
-      <packagereq type="default">php-mbstring</packagereq>
-      <packagereq type="default">php-mysqlnd</packagereq>
-      <packagereq type="default">php-opcache</packagereq>
-      <packagereq type="default">php-pear</packagereq>
-      <packagereq type="default">php-xml</packagereq>
-      <packagereq type="default">php-xmlrpc</packagereq>
-      <packagereq type="default">python</packagereq>
-      <packagereq type="default">rsync</packagereq>
-      <packagereq type="default">shared-mime-info</packagereq>
-      <packagereq type="default">tar</packagereq>
-      <packagereq type="default">unzip</packagereq>
-      <packagereq type="default">wbm-virtualmin-awstats</packagereq>
-      <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
-      <packagereq type="default">whois</packagereq>
-      <packagereq type="default">xz</packagereq>
-      <packagereq type="default">zip</packagereq>
-      <packagereq type="default">zstd</packagereq>
       <packagereq type="optional">clamav-update</packagereq>
       <packagereq type="optional">clamav</packagereq>
       <packagereq type="optional">clamd</packagereq>
@@ -161,24 +61,14 @@
       <packagereq type="optional">jailkit</packagereq>
       <packagereq type="optional">milter-greylist</packagereq>
       <packagereq type="optional">opendkim</packagereq>
-      <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-imap</packagereq>
-      <packagereq type="optional">php-odbc</packagereq>
-      <packagereq type="optional">php-pgsql</packagereq>
-      <packagereq type="optional">php-snmp</packagereq>
       <packagereq type="optional">postfix</packagereq>
-      <packagereq type="optional">postgresql-server</packagereq>
-      <packagereq type="optional">postgresql</packagereq>
       <packagereq type="optional">postgrey</packagereq>
       <packagereq type="optional">procmail-wrapper</packagereq>
       <packagereq type="optional">procmail</packagereq>
       <packagereq type="optional">proftpd</packagereq>
-      <packagereq type="optional">ruby</packagereq>
-      <packagereq type="optional">rubygems</packagereq>
       <packagereq type="optional">spamassassin</packagereq>
       <packagereq type="optional">wbm-jailkit</packagereq>
-      <packagereq type="optional">wbm-php-pear</packagereq>
-      <packagereq type="optional">wbm-ruby-gems</packagereq>
     </packagelist>
   </group>
   <group>
@@ -189,85 +79,30 @@
     <name>Virtualmin LEMP Stack</name>
     <description>Virtualmin with BIND, Nginx, MariaDB, PHP, Perl, Python, Ruby, and a full mail stack</description>
     <packagelist>
-      <packagereq type="mandatory">bind-utils</packagereq>
+      <!-- Mandatory LEMP packages -->
       <packagereq type="mandatory">nginx</packagereq>
-      <packagereq type="mandatory">openssl</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx</packagereq>
-      <packagereq type="default">awscli</packagereq>
-      <packagereq type="default">awstats</packagereq>
+      <!-- Default LEMP packages -->
       <packagereq type="default">bind</packagereq>
-      <packagereq type="default">bzip2</packagereq>
-      <packagereq type="default">ca-certificates</packagereq>
-      <packagereq type="default">certbot</packagereq>
       <packagereq type="default">clamav-update</packagereq>
       <packagereq type="default">clamav</packagereq>
       <packagereq type="default">clamd</packagereq>
-      <packagereq type="default">cronie</packagereq>
       <packagereq type="default">cyrus-sasl-gssapi</packagereq>
       <packagereq type="default">cyrus-sasl-plain</packagereq>
       <packagereq type="default">cyrus-sasl</packagereq>
       <packagereq type="default">dovecot</packagereq>
-      <packagereq type="default">etckeeper</packagereq>
-      <packagereq type="default">fail2ban-firewalld</packagereq>
-      <packagereq type="default">fail2ban-server</packagereq>
-      <packagereq type="default">fcgiwrap</packagereq>
-      <packagereq type="default">firewalld</packagereq>
       <packagereq type="default">jailkit</packagereq>
-      <packagereq type="default">lm_sensors</packagereq>
-      <packagereq type="default">logrotate</packagereq>
-      <packagereq type="default">mariadb-server</packagereq>
-      <packagereq type="default">mariadb</packagereq>
       <packagereq type="default">milter-greylist</packagereq>
       <packagereq type="default">opendkim</packagereq>
-      <packagereq type="default">p7zip</packagereq>
-      <packagereq type="default">parted</packagereq>
-      <packagereq type="default">perl-Config-IniFiles</packagereq>
-      <packagereq type="default">perl-File-Basename</packagereq>
-      <packagereq type="default">perl-File-Path</packagereq>
-      <packagereq type="default">perl-IO-Tty</packagereq>
-      <packagereq type="default">perl-Pod-Perldoc</packagereq>
-      <packagereq type="default">perl-lib</packagereq>
-      <packagereq type="default">perl-open</packagereq>
-      <packagereq type="default">php-cli</packagereq>
-      <packagereq type="default">php-fpm</packagereq>
-      <packagereq type="default">php-gd</packagereq>
       <packagereq type="default">php-imap</packagereq>
-      <packagereq type="default">php-json</packagereq>
-      <packagereq type="default">php-mbstring</packagereq>
-      <packagereq type="default">php-mysqlnd</packagereq>
-      <packagereq type="default">php-opcache</packagereq>
-      <packagereq type="default">php-pear</packagereq>
-      <packagereq type="default">php-xml</packagereq>
-      <packagereq type="default">php-xmlrpc</packagereq>
       <packagereq type="default">postfix</packagereq>
       <packagereq type="default">postgrey</packagereq>
       <packagereq type="default">procmail-wrapper</packagereq>
       <packagereq type="default">procmail</packagereq>
       <packagereq type="default">proftpd</packagereq>
-      <packagereq type="default">python</packagereq>
-      <packagereq type="default">rsync</packagereq>
-      <packagereq type="default">shared-mime-info</packagereq>
       <packagereq type="default">spamassassin</packagereq>
-      <packagereq type="default">tar</packagereq>
       <packagereq type="default">wbm-jailkit</packagereq>
-      <packagereq type="default">wbm-virtualmin-awstats</packagereq>
-      <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
-      <packagereq type="default">whois</packagereq>
-      <packagereq type="default">xz</packagereq>
-      <packagereq type="default">zstd</packagereq>
-      <packagereq type="default">unzip</packagereq>
-      <packagereq type="default">zip</packagereq>
-      <packagereq type="optional">perl-DBD-Pg</packagereq>
-      <packagereq type="optional">php-odbc</packagereq>
-      <packagereq type="optional">php-pgsql</packagereq>
-      <packagereq type="optional">php-snmp</packagereq>
-      <packagereq type="optional">postgresql-server</packagereq>
-      <packagereq type="optional">postgresql</packagereq>
-      <packagereq type="optional">ruby</packagereq>
-      <packagereq type="optional">rubygems</packagereq>
-      <packagereq type="optional">wbm-php-pear</packagereq>
-      <packagereq type="optional">wbm-ruby-gems</packagereq>
     </packagelist>
   </group>
   <group>
@@ -278,57 +113,12 @@
     <name>Virtualmin LEMP Stack Minimal</name>
     <description>Virtualmin with Nginx, MariaDB, PHP, Perl and Python, excluding the mail, FTP and DNS components</description>
     <packagelist>
-      <packagereq type="mandatory">bind-utils</packagereq>
+      <!-- Mandatory LEMP Minimal packages -->
       <packagereq type="mandatory">nginx</packagereq>
-      <packagereq type="mandatory">openssl</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
       <packagereq type="mandatory">wbm-virtualmin-nginx</packagereq>
-      <packagereq type="default">awscli</packagereq>
-      <packagereq type="default">awstats</packagereq>
+      <!-- Default LEMP Minimal packages -->
       <packagereq type="default">bind</packagereq>
-      <packagereq type="default">bzip2</packagereq>
-      <packagereq type="default">ca-certificates</packagereq>
-      <packagereq type="default">certbot</packagereq>
-      <packagereq type="default">cronie</packagereq>
-      <packagereq type="default">etckeeper</packagereq>
-      <packagereq type="default">fail2ban-firewalld</packagereq>
-      <packagereq type="default">fail2ban-server</packagereq>
-      <packagereq type="default">fcgiwrap</packagereq>
-      <packagereq type="default">firewalld</packagereq>
-      <packagereq type="default">lm_sensors</packagereq>
-      <packagereq type="default">logrotate</packagereq>
-      <packagereq type="default">mariadb-server</packagereq>
-      <packagereq type="default">mariadb</packagereq>
-      <packagereq type="default">p7zip</packagereq>
-      <packagereq type="default">parted</packagereq>
-      <packagereq type="default">perl-Config-IniFiles</packagereq>
-      <packagereq type="default">perl-File-Basename</packagereq>
-      <packagereq type="default">perl-File-Path</packagereq>
-      <packagereq type="default">perl-IO-Tty</packagereq>
-      <packagereq type="default">perl-lib</packagereq>
-      <packagereq type="default">perl-open</packagereq>
-      <packagereq type="default">perl-Pod-Perldoc</packagereq>
-      <packagereq type="default">php-cli</packagereq>
-      <packagereq type="default">php-fpm</packagereq>
-      <packagereq type="default">php-gd</packagereq>
-      <packagereq type="default">php-json</packagereq>
-      <packagereq type="default">php-mbstring</packagereq>
-      <packagereq type="default">php-mysqlnd</packagereq>
-      <packagereq type="default">php-opcache</packagereq>
-      <packagereq type="default">php-pear</packagereq>
-      <packagereq type="default">php-xml</packagereq>
-      <packagereq type="default">php-xmlrpc</packagereq>
-      <packagereq type="default">python</packagereq>
-      <packagereq type="default">rsync</packagereq>
-      <packagereq type="default">shared-mime-info</packagereq>
-      <packagereq type="default">tar</packagereq>
-      <packagereq type="default">unzip</packagereq>
-      <packagereq type="default">wbm-virtualmin-awstats</packagereq>
-      <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
-      <packagereq type="default">whois</packagereq>
-      <packagereq type="default">xz</packagereq>
-      <packagereq type="default">zip</packagereq>
-      <packagereq type="default">zstd</packagereq>
       <packagereq type="optional">clamav-update</packagereq>
       <packagereq type="optional">clamav</packagereq>
       <packagereq type="optional">clamd</packagereq>
@@ -339,24 +129,14 @@
       <packagereq type="optional">jailkit</packagereq>
       <packagereq type="optional">milter-greylist</packagereq>
       <packagereq type="optional">opendkim</packagereq>
-      <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">php-imap</packagereq>
-      <packagereq type="optional">php-odbc</packagereq>
-      <packagereq type="optional">php-pgsql</packagereq>
-      <packagereq type="optional">php-snmp</packagereq>
       <packagereq type="optional">postfix</packagereq>
-      <packagereq type="optional">postgresql-server</packagereq>
-      <packagereq type="optional">postgresql</packagereq>
       <packagereq type="optional">postgrey</packagereq>
       <packagereq type="optional">procmail-wrapper</packagereq>
       <packagereq type="optional">procmail</packagereq>
       <packagereq type="optional">proftpd</packagereq>
-      <packagereq type="optional">ruby</packagereq>
-      <packagereq type="optional">rubygems</packagereq>
       <packagereq type="optional">spamassassin</packagereq>
       <packagereq type="optional">wbm-jailkit</packagereq>
-      <packagereq type="optional">wbm-php-pear</packagereq>
-      <packagereq type="optional">wbm-ruby-gems</packagereq>
     </packagelist>
   </group>
 </comps>
