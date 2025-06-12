@@ -23,7 +23,7 @@
       <packagereq type="mandatory">perl-parent</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">virtualmin-config</packagereq>
-      <packagereq type="mandatory">wbm-virtual-server</packagereq>
+      <packagereq type="mandatory">webmin-virtual-server</packagereq>
       <packagereq type="mandatory">webmin</packagereq>
       <!-- Default packages -->
       <packagereq type="default">awscli</packagereq>
@@ -67,9 +67,9 @@
       <packagereq type="default">shared-mime-info</packagereq>
       <packagereq type="default">tar</packagereq>
       <packagereq type="default">unzip</packagereq>
-      <packagereq type="default">wbm-jailkit</packagereq>
-      <packagereq type="default">wbm-virtualmin-awstats</packagereq>
-      <packagereq type="default">wbm-virtualmin-htpasswd</packagereq>
+      <packagereq type="default">webmin-jailkit</packagereq>
+      <packagereq type="default">webmin-virtualmin-awstats</packagereq>
+      <packagereq type="default">webmin-virtualmin-htpasswd</packagereq>
       <packagereq type="default">whois</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="default">zip</packagereq>
@@ -84,8 +84,8 @@
       <packagereq type="optional">postgresql</packagereq>
       <packagereq type="optional">ruby</packagereq>
       <packagereq type="optional">rubygems</packagereq>
-      <packagereq type="optional">wbm-php-pear</packagereq>
-      <packagereq type="optional">wbm-ruby-gems</packagereq>
+      <packagereq type="optional">webmin-php-pear</packagereq>
+      <packagereq type="optional">webmin-ruby-gems</packagereq>
     </packagelist>
   </group>
 </comps>

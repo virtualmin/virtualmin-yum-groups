@@ -79,8 +79,8 @@
     <packagelist>
       <!-- Mandatory LEMP packages -->
       <packagereq type="mandatory">nginx</packagereq>
-      <packagereq type="mandatory">wbm-virtualmin-nginx</packagereq>
-      <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
+      <packagereq type="mandatory">webmin-virtualmin-nginx</packagereq>
+      <packagereq type="mandatory">webmin-virtualmin-nginx-ssl</packagereq>
       <!-- Default LEMP packages -->
       <packagereq type="default">bind</packagereq>
       <packagereq type="default">clamav-update</packagereq>
@@ -112,8 +112,8 @@
     <packagelist>
       <!-- Mandatory LEMP Minimal packages -->
       <packagereq type="mandatory">nginx</packagereq>
-      <packagereq type="mandatory">wbm-virtualmin-nginx</packagereq>
-      <packagereq type="mandatory">wbm-virtualmin-nginx-ssl</packagereq>
+      <packagereq type="mandatory">webmin-virtualmin-nginx</packagereq>
+      <packagereq type="mandatory">webmin-virtualmin-nginx-ssl</packagereq>
       <!-- Optional LEMP Minimal packages -->
       <packagereq type="optional">bind</packagereq>
       <packagereq type="optional">clamav-update</packagereq>
