@@ -50,6 +50,7 @@
       <packagereq type="default">perl-File-Path</packagereq>
       <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="default">perl-JSON-XS</packagereq>
+      <packagereq type="default">perl-Net-LibIDN2</packagereq>
       <packagereq type="default">perl-Pod-Perldoc</packagereq>
       <packagereq type="default">perl-lib</packagereq>
       <packagereq type="default">perl-open</packagereq>
