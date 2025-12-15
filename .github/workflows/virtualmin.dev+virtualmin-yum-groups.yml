@@ -54,4 +54,4 @@ jobs:
             $([[ "$IS_PRERELEASE" == "true" ]] && echo "--prerelease")
 
           # Re-sign
-          cloud_sign_and_build_repos virtualmin.dev
+          cloud_sign_and_build_repos_auto virtualmin.dev
