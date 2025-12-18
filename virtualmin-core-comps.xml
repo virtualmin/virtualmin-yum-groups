@@ -38,7 +38,6 @@
       <packagereq type="default">fail2ban-server</packagereq>
       <packagereq type="default">fcgiwrap</packagereq>
       <packagereq type="default">firewalld</packagereq>
-      <packagereq type="default">jailkit</packagereq>
       <packagereq type="default">lm_sensors</packagereq>
       <packagereq type="default">logrotate</packagereq>
       <packagereq type="default">mariadb-server</packagereq>
@@ -68,7 +67,6 @@
       <packagereq type="default">shared-mime-info</packagereq>
       <packagereq type="default">tar</packagereq>
       <packagereq type="default">unzip</packagereq>
-      <packagereq type="default">webmin-jailkit</packagereq>
       <packagereq type="default">webmin-virtualmin-awstats</packagereq>
       <packagereq type="default">webmin-virtualmin-htpasswd</packagereq>
       <packagereq type="default">whois</packagereq>
