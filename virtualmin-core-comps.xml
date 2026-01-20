@@ -12,7 +12,6 @@
       <!-- Mandatory packages -->
       <packagereq type="mandatory">openssl</packagereq>
       <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
-      <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
       <packagereq type="mandatory">perl-JSON-PP</packagereq>
       <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
       <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
@@ -46,6 +45,7 @@
       <packagereq type="default">parted</packagereq>
       <packagereq type="default">perl-Config-IniFiles</packagereq>
       <packagereq type="default">perl-File-Basename</packagereq>
+      <packagereq type="default">perl-DBD-MariaDB</packagereq>
       <packagereq type="default">perl-File-Path</packagereq>
       <packagereq type="default">perl-IO-Tty</packagereq>
       <packagereq type="default">perl-JSON-XS</packagereq>
